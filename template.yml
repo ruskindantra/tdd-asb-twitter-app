@@ -286,7 +286,7 @@ Outputs:
     Description: TweetSentiment function name.
     Value: !Ref TweetSentiment
   TweetSentimentAnalyserFunctionName:
-    Description: TweetSentiment_v2 function name.
+    Description: TweetSentimentDecomposer function name.
     Value: !Ref TweetSentimentDecomposer
   TweetSentimentFunctionArn:
     Description: TweetSentiment function ARN.

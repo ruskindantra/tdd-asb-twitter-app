@@ -59,10 +59,22 @@ def handler(tweets, context):
 
     if metric_data:
         LOG.debug('Putting metric data: %s', metric_data)
-        CLOUDWATCH.put_metric_data(
-            Namespace='TweetSentiment',
-            MetricData=metric_data
-        )
+
+        temp_metric_data = []
+        for i in range(len(metric_data)):
+            temp_metric_data.append(metric_data[i])
+            if (len(temp_metric_data) == 20):
+                CLOUDWATCH.put_metric_data(
+                    Namespace='TweetSentiment',
+                    MetricData=temp_metric_data
+                )
+                temp_metric_data.clear()
+
+        if temp_metric_data:
+            CLOUDWATCH.put_metric_data(
+                Namespace='TweetSentiment',
+                MetricData=temp_metric_data
+            )
 
 
 def _get_tweets_by_language(tweets, language_result_list):

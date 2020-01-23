@@ -1,0 +1,801 @@
+[{
+    'MetricName': 'SentimentCount',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Neutral'
+    }],
+    'Value': 1.0
+}, {
+    'MetricName': 'SentimentCount',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Negative'
+    }],
+    'Value': 1.0
+}, {
+    'MetricName': 'SentimentCount',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Neutral'
+    }],
+    'Value': 1.0
+}, {
+    'MetricName': 'SentimentCount',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Neutral'
+    }],
+    'Value': 1.0
+}, {
+    'MetricName': 'SentimentCount',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Neutral'
+    }],
+    'Value': 1.0
+}, {
+    'MetricName': 'SentimentCount',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Neutral'
+    }],
+    'Value': 1.0
+}, {
+    'MetricName': 'SentimentCount',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Neutral'
+    }],
+    'Value': 1.0
+}, {
+    'MetricName': 'SentimentCount',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Negative'
+    }],
+    'Value': 1.0
+}, {
+    'MetricName': 'SentimentCount',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Positive'
+    }],
+    'Value': 1.0
+}, {
+    'MetricName': 'SentimentCount',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Neutral'
+    }],
+    'Value': 1.0
+}, {
+    'MetricName': 'SentimentCount',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Neutral'
+    }],
+    'Value': 1.0
+}, {
+    'MetricName': 'SentimentCount',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Neutral'
+    }],
+    'Value': 1.0
+}, {
+    'MetricName': 'SentimentCount',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Positive'
+    }],
+    'Value': 1.0
+}, {
+    'MetricName': 'SentimentCount',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Neutral'
+    }],
+    'Value': 1.0
+}, {
+    'MetricName': 'SentimentCount',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Neutral'
+    }],
+    'Value': 1.0
+}, {
+    'MetricName': 'SentimentCount',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Neutral'
+    }],
+    'Value': 1.0
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Positive'
+    }],
+    'Value': 0.23273126780986786
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Positive'
+    }],
+    'Value': 0.0027880570851266384
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Positive'
+    }],
+    'Value': 0.4723275303840637
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Positive'
+    }],
+    'Value': 0.02832818403840065
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Positive'
+    }],
+    'Value': 0.002970893867313862
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Positive'
+    }],
+    'Value': 0.00023276341380551457
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Positive'
+    }],
+    'Value': 0.08342073112726212
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Positive'
+    }],
+    'Value': 0.007537192199379206
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Positive'
+    }],
+    'Value': 0.8344739079475403
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Positive'
+    }],
+    'Value': 0.15886786580085754
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Positive'
+    }],
+    'Value': 0.0009244424290955067
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Positive'
+    }],
+    'Value': 0.05607053264975548
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Positive'
+    }],
+    'Value': 0.41234084963798523
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Positive'
+    }],
+    'Value': 0.07906937599182129
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Positive'
+    }],
+    'Value': 0.4620051383972168
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Positive'
+    }],
+    'Value': 0.4234166145324707
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Negative'
+    }],
+    'Value': 0.0012304350966587663
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Negative'
+    }],
+    'Value': 0.568533182144165
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Negative'
+    }],
+    'Value': 0.00180960597936064
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Negative'
+    }],
+    'Value': 0.006846645846962929
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Negative'
+    }],
+    'Value': 0.0007898909389041364
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Negative'
+    }],
+    'Value': 0.0006259552319534123
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Negative'
+    }],
+    'Value': 0.000825719500426203
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Negative'
+    }],
+    'Value': 0.6378728151321411
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Negative'
+    }],
+    'Value': 0.01995987445116043
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Negative'
+    }],
+    'Value': 0.00195944937877357
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Negative'
+    }],
+    'Value': 8.600901492172852e-05
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Negative'
+    }],
+    'Value': 0.1619657278060913
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Negative'
+    }],
+    'Value': 0.2247864007949829
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Negative'
+    }],
+    'Value': 0.22541482746601105
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Negative'
+    }],
+    'Value': 0.004214185290038586
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Negative'
+    }],
+    'Value': 0.0015988979721441865
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Neutral'
+    }],
+    'Value': 0.7660297751426697
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Neutral'
+    }],
+    'Value': 0.4279112219810486
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Neutral'
+    }],
+    'Value': 0.525860071182251
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Neutral'
+    }],
+    'Value': 0.9648244976997375
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Neutral'
+    }],
+    'Value': 0.9962382316589355
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Neutral'
+    }],
+    'Value': 0.9991316199302673
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Neutral'
+    }],
+    'Value': 0.9157510995864868
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Neutral'
+    }],
+    'Value': 0.3545721173286438
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Neutral'
+    }],
+    'Value': 0.14556172490119934
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Neutral'
+    }],
+    'Value': 0.8391706347465515
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Neutral'
+    }],
+    'Value': 0.9989884495735168
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Neutral'
+    }],
+    'Value': 0.7819470763206482
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Neutral'
+    }],
+    'Value': 0.3380584716796875
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Neutral'
+    }],
+    'Value': 0.6955086588859558
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Neutral'
+    }],
+    'Value': 0.5337771773338318
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Neutral'
+    }],
+    'Value': 0.5749814510345459
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Mixed'
+    }],
+    'Value': 8.57118811836699e-06
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Mixed'
+    }],
+    'Value': 0.0007675761007703841
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Mixed'
+    }],
+    'Value': 2.829877757903887e-06
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Mixed'
+    }],
+    'Value': 6.997577770562202e-07
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Mixed'
+    }],
+    'Value': 9.47067121614964e-07
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Mixed'
+    }],
+    'Value': 9.625222446629778e-06
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Mixed'
+    }],
+    'Value': 2.448672148602782e-06
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Mixed'
+    }],
+    'Value': 1.785962376743555e-05
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Mixed'
+    }],
+    'Value': 4.54443579656072e-06
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Mixed'
+    }],
+    'Value': 2.091083842969965e-06
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Mixed'
+    }],
+    'Value': 1.089185047931096e-06
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Mixed'
+    }],
+    'Value': 1.6649644749122672e-05
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Mixed'
+    }],
+    'Value': 0.02481425553560257
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Mixed'
+    }],
+    'Value': 7.13987901690416e-06
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Mixed'
+    }],
+    'Value': 3.5403145375312306e-06
+}, {
+    'MetricName': 'SentimentScore',
+    'Dimensions': [{
+        'Name': 'SearchText',
+        'Value': 'new zealand'
+    }, {
+        'Name': 'SentimentType',
+        'Value': 'Mixed'
+    }],
+    'Value': 2.9884124614909524e-06
+}]

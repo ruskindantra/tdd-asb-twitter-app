@@ -1,0 +1,12 @@
+{
+    "name": "twitter-sentiment",
+    "version": "1.0.0",
+    "description": "Flattens tweets into single tweets from twitter",
+    "main": "app.js",
+    "repository": "https://github.com/ruskindantra/tdd-asb-twitter-app",
+    "author": "Ruskin Dantra",
+    "license": "MIT",
+    "dependencies": {
+    }
+  }
+  

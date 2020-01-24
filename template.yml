@@ -51,14 +51,83 @@ Conditions:
     !Not [!Equals [!Ref DashboardName, '']]
 
 Resources:
-  TweetSentimentDecomposer:
+  TweetBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: tweets294011
+
+  TweetQueue:
+    Type: AWS::SQS::Queue
+    Properties:
+      QueueName: TweetsQueue
+      VisibilityTimeout: 120
+      MessageRetentionPeriod: 600
+      DelaySeconds: 5
+
+  TweetFlattener:
     Type: AWS::Serverless::Function
     Properties:
-      CodeUri: tweet-sentiment-decomposer/
+      CodeUri: tweet-flattener/
       Handler: app.lambdaHandler
       Runtime: nodejs10.x
       Tracing: Active
       Timeout: 60
+
+  TweetSentimentAnalyserLambdaExecutionRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+        - Effect: Allow
+          Principal:
+            Service:
+            - lambda.amazonaws.com
+          Action:
+          - sts:AssumeRole
+      Policies:
+        - PolicyName: allowLambdaLogs
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+            - Effect: Allow
+              Action:
+              - logs:*
+              Resource: arn:aws:logs:*:*:*
+        - PolicyName: allowSqs
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+            - Effect: Allow
+              Action:
+              - sqs:ReceiveMessage
+              - sqs:DeleteMessage
+              - sqs:GetQueueAttributes
+              - sqs:ChangeMessageVisibility
+              Resource: !GetAtt TweetQueue.Arn
+      Path: /
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/CloudWatchFullAccess
+        - arn:aws:iam::aws:policy/AWSXrayWriteOnlyAccess
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+
+  TweetSentimentAnalyser:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: tweet-sentiment-analyser/
+      Handler: app.lambdaHandler
+      Runtime: nodejs10.x
+      Tracing: Active
+      Timeout: 60
+      Role: !GetAtt TweetSentimentAnalyserLambdaExecutionRole.Arn
+
+  TweetSentimentAnalyserEventSourceMapping:
+    Type: AWS::Lambda::EventSourceMapping
+    Properties:
+      BatchSize: 10
+      Enabled: true
+      EventSourceArn: !GetAtt TweetQueue.Arn
+      FunctionName: !GetAtt TweetSentimentAnalyser.Arn
 
   TweetSentiment:
     Type: AWS::Serverless::Function
@@ -282,18 +351,34 @@ Resources:
         }
 
 Outputs:
+  TweetQueueArn:
+    Description: TweetQueue ARN.
+    Value: !Ref TweetQueue
+  TweetBucketArn:
+    Description: TweetBucket ARN.
+    Value: !Ref TweetBucket
+
   TweetSentimentFunctionName:
     Description: TweetSentiment function name.
     Value: !Ref TweetSentiment
-  TweetSentimentAnalyserFunctionName:
-    Description: TweetSentimentDecomposer function name.
-    Value: !Ref TweetSentimentDecomposer
   TweetSentimentFunctionArn:
     Description: TweetSentiment function ARN.
     Value: !GetAtt TweetSentiment.Arn
-  TweetSentimentV2Arn:
-    Description: TweetSentimentDecomposer function ARN.
-    Value: !GetAtt TweetSentimentDecomposer.Arn
+  
+  TweetFlattenerFunctionName:
+    Description: TweetFlattener function name.
+    Value: !Ref TweetFlattener
+  TweetFlattenerArn:
+    Description: TweetFlattener function ARN.
+    Value: !GetAtt TweetFlattener.Arn
+  
+  TweetSentimentAnalyserFunctionName:
+    Description: TweetSentimentAnalyser function name.
+    Value: !Ref TweetSentimentAnalyser
+  TweetSentimentAnalyserArn:
+    Description: TweetSentimentAnalyser function ARN.
+    Value: !GetAtt TweetSentimentAnalyser.Arn
+
   DashboardName:
     Description: CloudWatch Dashboard name.
     Value: !Ref Dashboard

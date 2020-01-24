@@ -1,1591 +1,3104 @@
 [{
-    created_at: 'Tue Jan 21 18:32:01 +0000 2020',
-    id: 1219689121204994000,
-    id_str: '1219689121204994049',
-    full_text: 'IM GOING TO BE SICK IN NEW ZEALAND FUCK THIS VACATION',
-    truncated: false,
-    display_text_range: [0, 53],
-    entities: {
-        hashtags: [],
-        symbols: [],
-        user_mentions: [],
-        urls: []
-    },
-    metadata: {
-        iso_language_code: 'en',
-        result_type: 'recent'
-    },
-    source: '<a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>',
-    in_reply_to_status_id: null,
-    in_reply_to_status_id_str: null,
-    in_reply_to_user_id: null,
-    in_reply_to_user_id_str: null,
-    in_reply_to_screen_name: null,
-    user: {
-        id: 1186716993044406300,
-        id_str: '1186716993044406272',
-        name: 'lina',
-        screen_name: 'jolinalinaa',
-        location: '',
-        description: 'hey',
-        url: null,
-        entities: [Object],
-        protected: false,
-        followers_count: 241,
-        friends_count: 275,
-        listed_count: 0,
-        created_at: 'Tue Oct 22 18:52:48 +0000 2019',
-        favourites_count: 1920,
-        utc_offset: null,
-        time_zone: null,
-        geo_enabled: false,
-        verified: false,
-        statuses_count: 680,
-        lang: null,
-        contributors_enabled: false,
-        is_translator: false,
-        is_translation_enabled: false,
-        profile_background_color: 'F5F8FA',
-        profile_background_image_url: null,
-        profile_background_image_url_https: null,
-        profile_background_tile: false,
-        profile_image_url: 'http://pbs.twimg.com/profile_images/1189104316365164546/wf5z3S4o_normal.jpg',
-        profile_image_url_https: 'https://pbs.twimg.com/profile_images/1189104316365164546/wf5z3S4o_normal.jpg',
-        profile_banner_url: 'https://pbs.twimg.com/profile_banners/1186716993044406272/1578023009',
-        profile_link_color: '1DA1F2',
-        profile_sidebar_border_color: 'C0DEED',
-        profile_sidebar_fill_color: 'DDEEF6',
-        profile_text_color: '333333',
-        profile_use_background_image: true,
-        has_extended_profile: true,
-        default_profile: true,
-        default_profile_image: false,
-        following: false,
-        follow_request_sent: false,
-        notifications: false,
-        translator_type: 'none'
-    },
-    geo: null,
-    coordinates: null,
-    place: null,
-    contributors: null,
-    is_quote_status: false,
-    retweet_count: 0,
-    favorite_count: 0,
-    favorited: false,
-    retweeted: false,
-    lang: 'en'
-}, {
-    created_at: 'Tue Jan 21 18:31:25 +0000 2020',
-    id: 1219688969111294000,
-    id_str: '1219688969111293952',
-    full_text: '@losgallman @SteveBarclay @WSTA_Miles @wstauk Yes, just look at the wine shelf in an off licence or supermarket, wine from Australia New Zealand South Africa  the south americas united states and europe.',
-    truncated: false,
-    display_text_range: [46, 203],
-    entities: {
-        hashtags: [],
-        symbols: [],
-        user_mentions: [Array],
-        urls: []
-    },
-    metadata: {
-        iso_language_code: 'en',
-        result_type: 'recent'
-    },
-    source: '<a href="https://mobile.twitter.com" rel="nofollow">Mobile Web (M2)</a>',
-    in_reply_to_status_id: 1219340008416477200,
-    in_reply_to_status_id_str: '1219340008416477184',
-    in_reply_to_user_id: 1848576524,
-    in_reply_to_user_id_str: '1848576524',
-    in_reply_to_screen_name: 'losgallman',
-    user: {
-        id: 3157833324,
-        id_str: '3157833324',
-        name: 'gerardmcswiney',
-        screen_name: 'Gmcswineyyy',
-        location: 'watford up the road from londo',
-        description: 'watford born dog walking,chasing minder,',
-        url: null,
-        entities: [Object],
-        protected: false,
-        followers_count: 336,
-        friends_count: 1299,
-        listed_count: 5,
-        created_at: 'Wed Apr 15 16:32:40 +0000 2015',
-        favourites_count: 7278,
-        utc_offset: null,
-        time_zone: null,
-        geo_enabled: true,
-        verified: false,
-        statuses_count: 11684,
-        lang: null,
-        contributors_enabled: false,
-        is_translator: false,
-        is_translation_enabled: false,
-        profile_background_color: 'C0DEED',
-        profile_background_image_url: 'http://abs.twimg.com/images/themes/theme1/bg.png',
-        profile_background_image_url_https: 'https://abs.twimg.com/images/themes/theme1/bg.png',
-        profile_background_tile: false,
-        profile_image_url: 'http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png',
-        profile_image_url_https: 'https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png',
-        profile_link_color: '1DA1F2',
-        profile_sidebar_border_color: 'C0DEED',
-        profile_sidebar_fill_color: 'DDEEF6',
-        profile_text_color: '333333',
-        profile_use_background_image: true,
-        has_extended_profile: false,
-        default_profile: true,
-        default_profile_image: true,
-        following: false,
-        follow_request_sent: false,
-        notifications: false,
-        translator_type: 'none'
-    },
-    geo: null,
-    coordinates: null,
-    place: null,
-    contributors: null,
-    is_quote_status: false,
-    retweet_count: 0,
-    favorite_count: 0,
-    favorited: false,
-    retweeted: false,
-    lang: 'en'
-}, {
-    created_at: 'Tue Jan 21 18:30:48 +0000 2020',
-    id: 1219688813087404000,
-    id_str: '1219688813087404032',
-    full_text: '#ForYou Shazam Update (21/01/2020) @LiamPayne @RitaOra #LP1 #LiamIsBeautiful #LP1StreamingParty \n\n#258 Malaysia \n#277 UK\n#336 Czech Republic \n#336 Ireland \n#485 Bulgaria \n#655 Denmark \n#696 Belgium \n#712 Germany \n#723 New Zealand \n#727 Thailand \n#731 Singapore \n#787 Poland',
-    truncated: false,
-    display_text_range: [0, 273],
-    entities: {
-        hashtags: [Array],
-        symbols: [],
-        user_mentions: [Array],
-        urls: []
-    },
-    metadata: {
-        iso_language_code: 'en',
-        result_type: 'recent'
-    },
-    source: '<a href="https://mobile.twitter.com" rel="nofollow">Twitter Web App</a>',
-    in_reply_to_status_id: null,
-    in_reply_to_status_id_str: null,
-    in_reply_to_user_id: null,
-    in_reply_to_user_id_str: null,
-    in_reply_to_screen_name: null,
-    user: {
-        id: 93651191,
-        id_str: '93651191',
-        name: '❯❯❯❯ PERFECTLIAM ❯❯❯❯',
-        screen_name: 'olus_1D',
-        location: 'Poland',
-        description: 'Be just who you are, cause it\'s the best you can do!  \n❤️ POLAND, MUSIC, ONE DIRECTION, LIAM PAYNE, ZIAM, LILO, SPORT, ED SHEERAN and IMAGINE DRAGONS. ❤️',
-        url: null,
-        entities: [Object],
-        protected: false,
-        followers_count: 5672,
-        friends_count: 5345,
-        listed_count: 16,
-        created_at: 'Mon Nov 30 15:27:44 +0000 2009',
-        favourites_count: 17030,
-        utc_offset: null,
-        time_zone: null,
-        geo_enabled: false,
-        verified: false,
-        statuses_count: 41436,
-        lang: null,
-        contributors_enabled: false,
-        is_translator: false,
-        is_translation_enabled: false,
-        profile_background_color: 'F00C0C',
-        profile_background_image_url: 'http://abs.twimg.com/images/themes/theme8/bg.gif',
-        profile_background_image_url_https: 'https://abs.twimg.com/images/themes/theme8/bg.gif',
-        profile_background_tile: true,
-        profile_image_url: 'http://pbs.twimg.com/profile_images/1213871512077381633/V0ZLdUY8_normal.jpg',
-        profile_image_url_https: 'https://pbs.twimg.com/profile_images/1213871512077381633/V0ZLdUY8_normal.jpg',
-        profile_banner_url: 'https://pbs.twimg.com/profile_banners/93651191/1577352326',
-        profile_link_color: 'F00C0C',
-        profile_sidebar_border_color: 'FFFFFF',
-        profile_sidebar_fill_color: '95E8EC',
-        profile_text_color: '3C3940',
-        profile_use_background_image: true,
-        has_extended_profile: false,
-        default_profile: false,
-        default_profile_image: false,
-        following: false,
-        follow_request_sent: false,
-        notifications: false,
-        translator_type: 'none'
-    },
-    geo: null,
-    coordinates: null,
-    place: null,
-    contributors: null,
-    is_quote_status: false,
-    retweet_count: 0,
-    favorite_count: 1,
-    favorited: false,
-    retweeted: false,
-    lang: 'en'
-}, {
-    created_at: 'Tue Jan 21 18:30:25 +0000 2020',
-    id: 1219688716660330500,
-    id_str: '1219688716660330496',
-    full_text: 'India vs New Zealand T20, ODI, Test Series 2020: Full Schedule, Squad, Time Table, Players List, Timings, Live Streaming Details https://t.co/XZZGexObv8 https://t.co/CD0Vow3rWA',
-    truncated: false,
-    display_text_range: [0, 152],
-    entities: {
-        hashtags: [],
-        symbols: [],
-        user_mentions: [],
-        urls: [Array],
-        media: [Array]
-    },
-    extended_entities: {
-        media: [Array]
-    },
-    metadata: {
-        iso_language_code: 'en',
-        result_type: 'recent'
-    },
-    source: '<a href="http://publicize.wp.com/" rel="nofollow">WordPress.com</a>',
-    in_reply_to_status_id: null,
-    in_reply_to_status_id_str: null,
-    in_reply_to_user_id: null,
-    in_reply_to_user_id_str: null,
-    in_reply_to_screen_name: null,
-    user: {
-        id: 1933704806,
-        id_str: '1933704806',
-        name: 'vishnu surendran',
-        screen_name: 'VishnuVichu608',
-        location: '',
-        description: '',
-        url: null,
-        entities: [Object],
-        protected: false,
-        followers_count: 7,
-        friends_count: 16,
-        listed_count: 0,
-        created_at: 'Fri Oct 04 09:29:33 +0000 2013',
-        favourites_count: 3,
-        utc_offset: null,
-        time_zone: null,
-        geo_enabled: false,
-        verified: false,
-        statuses_count: 2197,
-        lang: null,
-        contributors_enabled: false,
-        is_translator: false,
-        is_translation_enabled: false,
-        profile_background_color: 'C0DEED',
-        profile_background_image_url: 'http://abs.twimg.com/images/themes/theme1/bg.png',
-        profile_background_image_url_https: 'https://abs.twimg.com/images/themes/theme1/bg.png',
-        profile_background_tile: false,
-        profile_image_url: 'http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png',
-        profile_image_url_https: 'https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png',
-        profile_link_color: '1DA1F2',
-        profile_sidebar_border_color: 'C0DEED',
-        profile_sidebar_fill_color: 'DDEEF6',
-        profile_text_color: '333333',
-        profile_use_background_image: true,
-        has_extended_profile: false,
-        default_profile: true,
-        default_profile_image: true,
-        following: false,
-        follow_request_sent: false,
-        notifications: false,
-        translator_type: 'none'
-    },
-    geo: null,
-    coordinates: null,
-    place: null,
-    contributors: null,
-    is_quote_status: false,
-    retweet_count: 0,
-    favorite_count: 0,
-    favorited: false,
-    retweeted: false,
-    possibly_sensitive: false,
-    lang: 'en'
-}, {
-    created_at: 'Tue Jan 21 18:30:23 +0000 2020',
-    id: 1219688709760737300,
-    id_str: '1219688709760737280',
-    full_text: 'This month, the council’s summer pool safety begins, sharing these important messages...\n https://t.co/lZB2HLMMoJ | Indian Weekender\n#swimming #pool #explore https://t.co/EpK03ghroI',
-    truncated: false,
-    display_text_range: [0, 157],
-    entities: {
-        hashtags: [Array],
-        symbols: [],
-        user_mentions: [],
-        urls: [Array],
-        media: [Array]
-    },
-    extended_entities: {
-        media: [Array]
-    },
-    metadata: {
-        iso_language_code: 'en',
-        result_type: 'recent'
-    },
-    source: '<a href="https://buffer.com" rel="nofollow">Buffer</a>',
-    in_reply_to_status_id: null,
-    in_reply_to_status_id_str: null,
-    in_reply_to_user_id: null,
-    in_reply_to_user_id_str: null,
-    in_reply_to_screen_name: null,
-    user: {
-        id: 240695155,
-        id_str: '240695155',
-        name: 'Pools, Spas & Patios',
-        screen_name: 'poolsspaspatios',
-        location: 'Canada',
-        description: 'Pools, Spas & Patios is the only Canadian magazine targeted to the backyard leisure market. We showcase the latest in pool and spa design.',
-        url: 'http://t.co/5qHATJ5rMy',
-        entities: [Object],
-        protected: false,
-        followers_count: 5330,
-        friends_count: 873,
-        listed_count: 116,
-        created_at: 'Thu Jan 20 14:38:06 +0000 2011',
-        favourites_count: 414,
-        utc_offset: null,
-        time_zone: null,
-        geo_enabled: false,
-        verified: false,
-        statuses_count: 11600,
-        lang: null,
-        contributors_enabled: false,
-        is_translator: false,
-        is_translation_enabled: false,
-        profile_background_color: 'C0DEED',
-        profile_background_image_url: 'http://abs.twimg.com/images/themes/theme1/bg.png',
-        profile_background_image_url_https: 'https://abs.twimg.com/images/themes/theme1/bg.png',
-        profile_background_tile: false,
-        profile_image_url: 'http://pbs.twimg.com/profile_images/877519025391251456/d_TGkv7Q_normal.jpg',
-        profile_image_url_https: 'https://pbs.twimg.com/profile_images/877519025391251456/d_TGkv7Q_normal.jpg',
-        profile_banner_url: 'https://pbs.twimg.com/profile_banners/240695155/1528477151',
-        profile_link_color: '0084B4',
-        profile_sidebar_border_color: 'FFFFFF',
-        profile_sidebar_fill_color: 'DDEEF6',
-        profile_text_color: '333333',
-        profile_use_background_image: true,
-        has_extended_profile: false,
-        default_profile: false,
-        default_profile_image: false,
-        following: false,
-        follow_request_sent: false,
-        notifications: false,
-        translator_type: 'none'
-    },
-    geo: null,
-    coordinates: null,
-    place: null,
-    contributors: null,
-    is_quote_status: false,
-    retweet_count: 0,
-    favorite_count: 0,
-    favorited: false,
-    retweeted: false,
-    possibly_sensitive: false,
-    lang: 'en'
-}, {
-    created_at: 'Tue Jan 21 18:30:13 +0000 2020',
-    id: 1219688667071074300,
-    id_str: '1219688667071074306',
-    full_text: 'New Zealand and Panama https://t.co/kTs6fwBzfd',
-    truncated: false,
-    display_text_range: [0, 22],
-    entities: {
-        hashtags: [],
-        symbols: [],
-        user_mentions: [],
-        urls: [],
-        media: [Array]
-    },
-    extended_entities: {
-        media: [Array]
-    },
-    metadata: {
-        iso_language_code: 'en',
-        result_type: 'recent'
-    },
-    source: '<a href="https://mobile.twitter.com" rel="nofollow">Twitter Web App</a>',
-    in_reply_to_status_id: 1219654173907652600,
-    in_reply_to_status_id_str: '1219654173907652608',
-    in_reply_to_user_id: 2230574412,
-    in_reply_to_user_id_str: '2230574412',
-    in_reply_to_screen_name: 'MjTurner_',
-    user: {
-        id: 2230574412,
-        id_str: '2230574412',
-        name: 'Matthew Turner',
-        screen_name: 'MjTurner_',
-        location: 'Primrose Hill, London',
-        description: 'UCL • Writer/Assistant Editor/Events, LOBBY Magazine • Associate Lecturer, Chelsea College of Arts •',
-        url: null,
-        entities: [Object],
-        protected: false,
-        followers_count: 2339,
-        friends_count: 4998,
-        listed_count: 18,
-        created_at: 'Wed Dec 04 22:36:09 +0000 2013',
-        favourites_count: 20091,
-        utc_offset: null,
-        time_zone: null,
-        geo_enabled: true,
-        verified: false,
-        statuses_count: 1865,
-        lang: null,
-        contributors_enabled: false,
-        is_translator: false,
-        is_translation_enabled: false,
-        profile_background_color: '000000',
-        profile_background_image_url: 'http://abs.twimg.com/images/themes/theme1/bg.png',
-        profile_background_image_url_https: 'https://abs.twimg.com/images/themes/theme1/bg.png',
-        profile_background_tile: false,
-        profile_image_url: 'http://pbs.twimg.com/profile_images/1012094536624017409/7q5aw2VN_normal.jpg',
-        profile_image_url_https: 'https://pbs.twimg.com/profile_images/1012094536624017409/7q5aw2VN_normal.jpg',
-        profile_banner_url: 'https://pbs.twimg.com/profile_banners/2230574412/1466349441',
-        profile_link_color: '91D2FA',
-        profile_sidebar_border_color: '000000',
-        profile_sidebar_fill_color: '000000',
-        profile_text_color: '000000',
-        profile_use_background_image: false,
-        has_extended_profile: false,
-        default_profile: false,
-        default_profile_image: false,
-        following: false,
-        follow_request_sent: false,
-        notifications: false,
-        translator_type: 'none'
-    },
-    geo: null,
-    coordinates: null,
-    place: null,
-    contributors: null,
-    is_quote_status: false,
-    retweet_count: 0,
-    favorite_count: 0,
-    favorited: false,
-    retweeted: false,
-    possibly_sensitive: false,
-    lang: 'en'
-}, {
-    created_at: 'Tue Jan 21 18:30:04 +0000 2020',
-    id: 1219688627296440300,
-    id_str: '1219688627296440326',
-    full_text: 'Guam’s next race will be in Oceania, the New Zealand Cycle Classic, a five-stage race slated for January. https://t.co/XiWaeFcuSi',
-    truncated: false,
-    display_text_range: [0, 129],
-    entities: {
-        hashtags: [],
-        symbols: [],
-        user_mentions: [],
-        urls: [Array]
-    },
-    metadata: {
-        iso_language_code: 'en',
-        result_type: 'recent'
-    },
-    source: '<a href="https://www.townnews.com/" rel="nofollow">BLOX CMS</a>',
-    in_reply_to_status_id: null,
-    in_reply_to_status_id_str: null,
-    in_reply_to_user_id: null,
-    in_reply_to_user_id_str: null,
-    in_reply_to_screen_name: null,
-    user: {
-        id: 474743801,
-        id_str: '474743801',
-        name: 'Guam Daily Post',
-        screen_name: 'PostGuam',
-        location: 'Tamuning, GU',
-        description: 'The Guam Daily Post, delivering the most local news out of #Guam. Got a news tip? Email reporters@postguam.com.\n\nFacebook & Instagram: @postguam',
-        url: 'https://t.co/HVCVU9lyLT',
-        entities: [Object],
-        protected: false,
-        followers_count: 5729,
-        friends_count: 237,
-        listed_count: 78,
-        created_at: 'Thu Jan 26 09:19:18 +0000 2012',
-        favourites_count: 312,
-        utc_offset: null,
-        time_zone: null,
-        geo_enabled: true,
-        verified: false,
-        statuses_count: 22737,
-        lang: null,
-        contributors_enabled: false,
-        is_translator: false,
-        is_translation_enabled: false,
-        profile_background_color: '8C8C8C',
-        profile_background_image_url: 'http://abs.twimg.com/images/themes/theme1/bg.png',
-        profile_background_image_url_https: 'https://abs.twimg.com/images/themes/theme1/bg.png',
-        profile_background_tile: false,
-        profile_image_url: 'http://pbs.twimg.com/profile_images/881837368419864576/p0jboqGH_normal.jpg',
-        profile_image_url_https: 'https://pbs.twimg.com/profile_images/881837368419864576/p0jboqGH_normal.jpg',
-        profile_banner_url: 'https://pbs.twimg.com/profile_banners/474743801/1536738548',
-        profile_link_color: '000000',
-        profile_sidebar_border_color: 'C0DEED',
-        profile_sidebar_fill_color: 'DDEEF6',
-        profile_text_color: '333333',
-        profile_use_background_image: false,
-        has_extended_profile: false,
-        default_profile: false,
-        default_profile_image: false,
-        following: false,
-        follow_request_sent: false,
-        notifications: false,
-        translator_type: 'none'
-    },
-    geo: null,
-    coordinates: null,
-    place: null,
-    contributors: null,
-    is_quote_status: false,
-    retweet_count: 0,
-    favorite_count: 0,
-    favorited: false,
-    retweeted: false,
-    possibly_sensitive: false,
-    lang: 'en'
-}, {
-    created_at: 'Tue Jan 21 18:30:00 +0000 2020',
-    id: 1219688613312487400,
-    id_str: '1219688613312487424',
-    full_text: '@PeterSchiff lol noobs, I did my part for new zealand\'s economy I put in a hard 8 hours for my country last night doing the graveyard shift, now I am rewarding myself with beer and weed I am addicted to the butterfly effect of trying to improve my country then rewarding myself at the end!',
-    truncated: false,
-    display_text_range: [13, 289],
-    entities: {
-        hashtags: [],
-        symbols: [],
-        user_mentions: [Array],
-        urls: []
-    },
-    metadata: {
-        iso_language_code: 'en',
-        result_type: 'recent'
-    },
-    source: '<a href="https://mobile.twitter.com" rel="nofollow">Twitter Web App</a>',
-    in_reply_to_status_id: 1219687087118737400,
-    in_reply_to_status_id_str: '1219687087118737408',
-    in_reply_to_user_id: 56562803,
-    in_reply_to_user_id_str: '56562803',
-    in_reply_to_screen_name: 'PeterSchiff',
-    user: {
-        id: 1124311617640919000,
-        id_str: '1124311617640919043',
-        name: 'Jack Campbell',
-        screen_name: 'JackCampbell420',
-        location: 'New Zealand',
-        description: 'Beer and Weed lover.',
-        url: null,
-        entities: [Object],
-        protected: false,
-        followers_count: 76,
-        friends_count: 928,
-        listed_count: 1,
-        created_at: 'Fri May 03 13:55:53 +0000 2019',
-        favourites_count: 4027,
-        utc_offset: null,
-        time_zone: null,
-        geo_enabled: false,
-        verified: false,
-        statuses_count: 7445,
-        lang: null,
-        contributors_enabled: false,
-        is_translator: false,
-        is_translation_enabled: false,
-        profile_background_color: 'F5F8FA',
-        profile_background_image_url: null,
-        profile_background_image_url_https: null,
-        profile_background_tile: false,
-        profile_image_url: 'http://pbs.twimg.com/profile_images/1124311905797939200/gWX1yiES_normal.png',
-        profile_image_url_https: 'https://pbs.twimg.com/profile_images/1124311905797939200/gWX1yiES_normal.png',
-        profile_banner_url: 'https://pbs.twimg.com/profile_banners/1124311617640919043/1556996107',
-        profile_link_color: '1DA1F2',
-        profile_sidebar_border_color: 'C0DEED',
-        profile_sidebar_fill_color: 'DDEEF6',
-        profile_text_color: '333333',
-        profile_use_background_image: true,
-        has_extended_profile: true,
-        default_profile: true,
-        default_profile_image: false,
-        following: false,
-        follow_request_sent: false,
-        notifications: false,
-        translator_type: 'none'
-    },
-    geo: null,
-    coordinates: null,
-    place: null,
-    contributors: null,
-    is_quote_status: false,
-    retweet_count: 0,
-    favorite_count: 0,
-    favorited: false,
-    retweeted: false,
-    lang: 'en'
-}, {
-    created_at: 'Tue Jan 21 18:30:00 +0000 2020',
-    id: 1219688612289220600,
-    id_str: '1219688612289220608',
-    full_text: 'New Zealand will host a leg of the World Rally Championship for the first time since 2012. The gravel road rally will be held between the 3rd and 6th of September this year Kiwi rally driver Hayden Paddon spoke with First Up\'s @jeremyparkinson https://t.co/vtIoqAS4bB',
-    truncated: false,
-    display_text_range: [0, 267],
-    entities: {
-        hashtags: [],
-        symbols: [],
-        user_mentions: [Array],
-        urls: [Array]
-    },
-    metadata: {
-        iso_language_code: 'en',
-        result_type: 'recent'
-    },
-    source: '<a href="https://about.twitter.com/products/tweetdeck" rel="nofollow">TweetDeck</a>',
-    in_reply_to_status_id: null,
-    in_reply_to_status_id_str: null,
-    in_reply_to_user_id: null,
-    in_reply_to_user_id_str: null,
-    in_reply_to_screen_name: null,
-    user: {
-        id: 1122397596666851300,
-        id_str: '1122397596666851332',
-        name: 'First Up',
-        screen_name: 'FirstUpRNZ',
-        location: 'Auckland, New Zealand',
-        description: 'Early morning news and current affairs with Indira Stewart. RNZ National Mon-Fri at 5am',
-        url: 'https://t.co/xWmNsu7iUK',
-        entities: [Object],
-        protected: false,
-        followers_count: 696,
-        friends_count: 334,
-        listed_count: 5,
-        created_at: 'Sun Apr 28 07:10:14 +0000 2019',
-        favourites_count: 369,
-        utc_offset: null,
-        time_zone: null,
-        geo_enabled: false,
-        verified: false,
-        statuses_count: 1006,
-        lang: null,
-        contributors_enabled: false,
-        is_translator: false,
-        is_translation_enabled: false,
-        profile_background_color: 'F5F8FA',
-        profile_background_image_url: null,
-        profile_background_image_url_https: null,
-        profile_background_tile: false,
-        profile_image_url: 'http://pbs.twimg.com/profile_images/1122398161673211904/e_42QYYD_normal.jpg',
-        profile_image_url_https: 'https://pbs.twimg.com/profile_images/1122398161673211904/e_42QYYD_normal.jpg',
-        profile_banner_url: 'https://pbs.twimg.com/profile_banners/1122397596666851332/1556436143',
-        profile_link_color: '1DA1F2',
-        profile_sidebar_border_color: 'C0DEED',
-        profile_sidebar_fill_color: 'DDEEF6',
-        profile_text_color: '333333',
-        profile_use_background_image: true,
-        has_extended_profile: false,
-        default_profile: true,
-        default_profile_image: false,
-        following: false,
-        follow_request_sent: false,
-        notifications: false,
-        translator_type: 'none'
-    },
-    geo: null,
-    coordinates: null,
-    place: null,
-    contributors: null,
-    is_quote_status: false,
-    retweet_count: 0,
-    favorite_count: 0,
-    favorited: false,
-    retweeted: false,
-    possibly_sensitive: false,
-    lang: 'en'
-}, {
-    created_at: 'Tue Jan 21 18:30:00 +0000 2020',
-    id: 1219688610993180700,
-    id_str: '1219688610993180679',
-    full_text: 'New Zealand Māori Council’s Matthew Tukaki questions impact of Kaikōura rebuild on local Māori while Te Rūnanga o Kaikōura says mana whenua voices are being heard in rebuild plans.\n\nRead more here: https://t.co/rJRtbjgtNK https://t.co/oEso5vF7l5',
-    truncated: false,
-    display_text_range: [0, 221],
-    entities: {
-        hashtags: [],
-        symbols: [],
-        user_mentions: [],
-        urls: [Array],
-        media: [Array]
-    },
-    extended_entities: {
-        media: [Array]
-    },
-    metadata: {
-        iso_language_code: 'ro',
-        result_type: 'recent'
-    },
-    source: '<a href="https://about.twitter.com/products/tweetdeck" rel="nofollow">TweetDeck</a>',
-    in_reply_to_status_id: null,
-    in_reply_to_status_id_str: null,
-    in_reply_to_user_id: null,
-    in_reply_to_user_id_str: null,
-    in_reply_to_screen_name: null,
-    user: {
-        id: 50137144,
-        id_str: '50137144',
-        name: 'Te Karere',
-        screen_name: 'TeKarereTVNZ',
-        location: 'Tāmaki Makaurau',
-        description: 'Your source of daily Māori news - all from a Māori worldview. Te Karere, 4pm on TVNZ 1 - tekarere@tvnz.co.nz. Follow us on Facebook, YouTube and Instagram.',
-        url: 'https://t.co/vwkpmvX2VB',
-        entities: [Object],
-        protected: false,
-        followers_count: 6432,
-        friends_count: 357,
-        listed_count: 96,
-        created_at: 'Tue Jun 23 23:20:23 +0000 2009',
-        favourites_count: 111,
-        utc_offset: null,
-        time_zone: null,
-        geo_enabled: true,
-        verified: false,
-        statuses_count: 6481,
-        lang: null,
-        contributors_enabled: false,
-        is_translator: false,
-        is_translation_enabled: false,
-        profile_background_color: 'C0DEED',
-        profile_background_image_url: 'http://abs.twimg.com/images/themes/theme1/bg.png',
-        profile_background_image_url_https: 'https://abs.twimg.com/images/themes/theme1/bg.png',
-        profile_background_tile: true,
-        profile_image_url: 'http://pbs.twimg.com/profile_images/782470422910541824/rUYbQSKa_normal.jpg',
-        profile_image_url_https: 'https://pbs.twimg.com/profile_images/782470422910541824/rUYbQSKa_normal.jpg',
-        profile_banner_url: 'https://pbs.twimg.com/profile_banners/50137144/1524809596',
-        profile_link_color: 'C72408',
-        profile_sidebar_border_color: 'FFFFFF',
-        profile_sidebar_fill_color: 'D7BB87',
-        profile_text_color: '333333',
-        profile_use_background_image: true,
-        has_extended_profile: false,
-        default_profile: false,
-        default_profile_image: false,
-        following: false,
-        follow_request_sent: false,
-        notifications: false,
-        translator_type: 'none'
-    },
-    geo: null,
-    coordinates: null,
-    place: null,
-    contributors: null,
-    is_quote_status: false,
-    retweet_count: 0,
-    favorite_count: 0,
-    favorited: false,
-    retweeted: false,
-    possibly_sensitive: false,
-    lang: 'ro'
-}, {
-    created_at: 'Tue Jan 21 18:29:53 +0000 2020',
-    id: 1219688580995567600,
-    id_str: '1219688580995567616',
-    full_text: 'India ODI Squad for New Zealand Series 2020: Shikhar Dhawan ruled out, Prithvi Shaw in; Sanju Samson gets the nod for T20Is https://t.co/9kF3UNYun4 https://t.co/DopKDEkLSy',
-    truncated: false,
-    display_text_range: [0, 147],
-    entities: {
-        hashtags: [],
-        symbols: [],
-        user_mentions: [],
-        urls: [Array],
-        media: [Array]
-    },
-    extended_entities: {
-        media: [Array]
-    },
-    metadata: {
-        iso_language_code: 'en',
-        result_type: 'recent'
-    },
-    source: '<a href="http://publicize.wp.com/" rel="nofollow">WordPress.com</a>',
-    in_reply_to_status_id: null,
-    in_reply_to_status_id_str: null,
-    in_reply_to_user_id: null,
-    in_reply_to_user_id_str: null,
-    in_reply_to_screen_name: null,
-    user: {
-        id: 1933704806,
-        id_str: '1933704806',
-        name: 'vishnu surendran',
-        screen_name: 'VishnuVichu608',
-        location: '',
-        description: '',
-        url: null,
-        entities: [Object],
-        protected: false,
-        followers_count: 7,
-        friends_count: 16,
-        listed_count: 0,
-        created_at: 'Fri Oct 04 09:29:33 +0000 2013',
-        favourites_count: 3,
-        utc_offset: null,
-        time_zone: null,
-        geo_enabled: false,
-        verified: false,
-        statuses_count: 2197,
-        lang: null,
-        contributors_enabled: false,
-        is_translator: false,
-        is_translation_enabled: false,
-        profile_background_color: 'C0DEED',
-        profile_background_image_url: 'http://abs.twimg.com/images/themes/theme1/bg.png',
-        profile_background_image_url_https: 'https://abs.twimg.com/images/themes/theme1/bg.png',
-        profile_background_tile: false,
-        profile_image_url: 'http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png',
-        profile_image_url_https: 'https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png',
-        profile_link_color: '1DA1F2',
-        profile_sidebar_border_color: 'C0DEED',
-        profile_sidebar_fill_color: 'DDEEF6',
-        profile_text_color: '333333',
-        profile_use_background_image: true,
-        has_extended_profile: false,
-        default_profile: true,
-        default_profile_image: true,
-        following: false,
-        follow_request_sent: false,
-        notifications: false,
-        translator_type: 'none'
-    },
-    geo: null,
-    coordinates: null,
-    place: null,
-    contributors: null,
-    is_quote_status: false,
-    retweet_count: 0,
-    favorite_count: 0,
-    favorited: false,
-    retweeted: false,
-    possibly_sensitive: false,
-    lang: 'en'
-}, {
-    created_at: 'Tue Jan 21 18:29:48 +0000 2020',
-    id: 1219688562792312800,
-    id_str: '1219688562792312833',
-    full_text: '@rugbyworldcup Canada vs New Zealand 2019',
-    truncated: false,
-    display_text_range: [15, 41],
-    entities: {
-        hashtags: [],
-        symbols: [],
-        user_mentions: [Array],
-        urls: []
-    },
-    metadata: {
-        iso_language_code: 'en',
-        result_type: 'recent'
-    },
-    source: '<a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>',
-    in_reply_to_status_id: 1219650867948859400,
-    in_reply_to_status_id_str: '1219650867948859394',
-    in_reply_to_user_id: 55459700,
-    in_reply_to_user_id_str: '55459700',
-    in_reply_to_screen_name: 'rugbyworldcup',
-    user: {
-        id: 26091252,
-        id_str: '26091252',
-        name: 'Luke McCabe',
-        screen_name: 'lmccabe55',
-        location: 'Dartmouth, Nova Scotia, Canada',
-        description: 'Schulich School of Law @ Dalhousie. We began as wanderers, and we are wanderers still.',
-        url: null,
-        entities: [Object],
-        protected: false,
-        followers_count: 313,
-        friends_count: 1474,
-        listed_count: 3,
-        created_at: 'Mon Mar 23 21:12:45 +0000 2009',
-        favourites_count: 2527,
-        utc_offset: null,
-        time_zone: null,
-        geo_enabled: true,
-        verified: false,
-        statuses_count: 2902,
-        lang: null,
-        contributors_enabled: false,
-        is_translator: false,
-        is_translation_enabled: false,
-        profile_background_color: '131516',
-        profile_background_image_url: 'http://abs.twimg.com/images/themes/theme14/bg.gif',
-        profile_background_image_url_https: 'https://abs.twimg.com/images/themes/theme14/bg.gif',
-        profile_background_tile: false,
-        profile_image_url: 'http://pbs.twimg.com/profile_images/1210290498272821248/0axSy634_normal.jpg',
-        profile_image_url_https: 'https://pbs.twimg.com/profile_images/1210290498272821248/0axSy634_normal.jpg',
-        profile_banner_url: 'https://pbs.twimg.com/profile_banners/26091252/1497414367',
-        profile_link_color: 'F00E19',
-        profile_sidebar_border_color: 'FFFFFF',
-        profile_sidebar_fill_color: 'EFEFEF',
-        profile_text_color: '333333',
-        profile_use_background_image: true,
-        has_extended_profile: true,
-        default_profile: false,
-        default_profile_image: false,
-        following: false,
-        follow_request_sent: false,
-        notifications: false,
-        translator_type: 'regular'
-    },
-    geo: null,
-    coordinates: null,
-    place: {
-        id: '5d058f2e9fe1516c',
-        url: 'https://api.twitter.com/1.1/geo/id/5d058f2e9fe1516c.json',
-        place_type: 'city',
-        name: 'Halifax',
-        full_name: 'Halifax, Nova Scotia',
-        country_code: 'CA',
-        country: 'Canada',
-        contained_within: [],
-        bounding_box: [Object],
-        attributes: {}
-    },
-    contributors: null,
-    is_quote_status: false,
-    retweet_count: 0,
-    favorite_count: 0,
-    favorited: false,
-    retweeted: false,
-    lang: 'en'
-}, {
-    created_at: 'Tue Jan 21 18:29:39 +0000 2020',
-    id: 1219688525588762600,
-    id_str: '1219688525588762624',
-    full_text: '🤠🤠\nIndia’s ODI squad against New Zealand announced:\n\nKohli (C), R. Sharma (VC), P. Shaw, Rahul, Shreyas, M. Pandey, Pant (WK), S. Dube, Kuldeep, Chahal, Jadeja, Bumrah, Shami, Saini, S. Thakur, Kedar\n\nDhawan ruled out of T20I and ODI series.\nhttps://t.co/pmheAImxqt',
-    truncated: false,
-    display_text_range: [0, 265],
-    entities: {
-        hashtags: [],
-        symbols: [],
-        user_mentions: [],
-        urls: [],
-        media: [Array]
-    },
-    extended_entities: {
-        media: [Array]
-    },
-    metadata: {
-        iso_language_code: 'en',
-        result_type: 'recent'
-    },
-    source: '<a href="http://twitter.com/download/android" rel="nofollow">Twitter for Android</a>',
-    in_reply_to_status_id: null,
-    in_reply_to_status_id_str: null,
-    in_reply_to_user_id: null,
-    in_reply_to_user_id_str: null,
-    in_reply_to_screen_name: null,
-    user: {
-        id: 1113555241,
-        id_str: '1113555241',
-        name: '#INDvNZ',
-        screen_name: 'iRohit45_FC',
-        location: 'Planet Rohit',
-        description: 'Rohit Sharma\'s success as an opener will solve a lot of problems for India............!!\n\n🤠🤠🤠🤠',
-        url: 'https://t.co/CLvccy8izf',
-        entities: [Object],
-        protected: false,
-        followers_count: 20511,
-        friends_count: 310,
-        listed_count: 42,
-        created_at: 'Wed Jan 23 05:35:37 +0000 2013',
-        favourites_count: 1959,
-        utc_offset: null,
-        time_zone: null,
-        geo_enabled: false,
-        verified: false,
-        statuses_count: 61250,
-        lang: null,
-        contributors_enabled: false,
-        is_translator: false,
-        is_translation_enabled: false,
-        profile_background_color: 'DD2E44',
-        profile_background_image_url: 'http://abs.twimg.com/images/themes/theme1/bg.png',
-        profile_background_image_url_https: 'https://abs.twimg.com/images/themes/theme1/bg.png',
-        profile_background_tile: true,
-        profile_image_url: 'http://pbs.twimg.com/profile_images/1173485102069932033/EK6nFBKn_normal.jpg',
-        profile_image_url_https: 'https://pbs.twimg.com/profile_images/1173485102069932033/EK6nFBKn_normal.jpg',
-        profile_banner_url: 'https://pbs.twimg.com/profile_banners/1113555241/1575939297',
-        profile_link_color: '9266CC',
-        profile_sidebar_border_color: '000000',
-        profile_sidebar_fill_color: 'DDEEF6',
-        profile_text_color: '333333',
-        profile_use_background_image: true,
-        has_extended_profile: false,
-        default_profile: false,
-        default_profile_image: false,
-        following: false,
-        follow_request_sent: false,
-        notifications: false,
-        translator_type: 'none'
-    },
-    geo: null,
-    coordinates: null,
-    place: null,
-    contributors: null,
-    is_quote_status: false,
-    retweet_count: 0,
-    favorite_count: 2,
-    favorited: false,
-    retweeted: false,
-    possibly_sensitive: false,
-    lang: 'en'
-}, {
-    created_at: 'Tue Jan 21 18:29:36 +0000 2020',
-    id: 1219688512926224400,
-    id_str: '1219688512926224390',
-    full_text: '@Freeyourmindkid New Zealand asset, they know the truth about “Birds”.',
-    truncated: false,
-    display_text_range: [17, 70],
-    entities: {
-        hashtags: [],
-        symbols: [],
-        user_mentions: [Array],
-        urls: []
-    },
-    metadata: {
-        iso_language_code: 'en',
-        result_type: 'recent'
-    },
-    source: '<a href="http://twitter.com/#!/download/ipad" rel="nofollow">Twitter for iPad</a>',
-    in_reply_to_status_id: 1219687787378638800,
-    in_reply_to_status_id_str: '1219687787378638849',
-    in_reply_to_user_id: 120995738,
-    in_reply_to_user_id_str: '120995738',
-    in_reply_to_screen_name: 'Freeyourmindkid',
-    user: {
-        id: 304589813,
-        id_str: '304589813',
-        name: 'Andrew',
-        screen_name: 'gorlak357',
-        location: 'Halifax, Nova Scotia',
-        description: 'Ignorant of most things, the downside of being human. in 2020 we do big frontside heel flips and stomp fascists, good faith arguments only',
-        url: null,
-        entities: [Object],
-        protected: false,
-        followers_count: 38,
-        friends_count: 422,
-        listed_count: 0,
-        created_at: 'Tue May 24 19:32:59 +0000 2011',
-        favourites_count: 3858,
-        utc_offset: null,
-        time_zone: null,
-        geo_enabled: false,
-        verified: false,
-        statuses_count: 6929,
-        lang: null,
-        contributors_enabled: false,
-        is_translator: false,
-        is_translation_enabled: false,
-        profile_background_color: 'C0DEED',
-        profile_background_image_url: 'http://abs.twimg.com/images/themes/theme1/bg.png',
-        profile_background_image_url_https: 'https://abs.twimg.com/images/themes/theme1/bg.png',
-        profile_background_tile: false,
-        profile_image_url: 'http://pbs.twimg.com/profile_images/1025909659251761152/ieOo5tB9_normal.jpg',
-        profile_image_url_https: 'https://pbs.twimg.com/profile_images/1025909659251761152/ieOo5tB9_normal.jpg',
-        profile_banner_url: 'https://pbs.twimg.com/profile_banners/304589813/1511587547',
-        profile_link_color: '1DA1F2',
-        profile_sidebar_border_color: 'C0DEED',
-        profile_sidebar_fill_color: 'DDEEF6',
-        profile_text_color: '333333',
-        profile_use_background_image: true,
-        has_extended_profile: false,
-        default_profile: true,
-        default_profile_image: false,
-        following: false,
-        follow_request_sent: false,
-        notifications: false,
-        translator_type: 'none'
-    },
-    geo: null,
-    coordinates: null,
-    place: null,
-    contributors: null,
-    is_quote_status: false,
-    retweet_count: 0,
-    favorite_count: 0,
-    favorited: false,
-    retweeted: false,
-    lang: 'en'
-}, {
-    created_at: 'Tue Jan 21 18:28:59 +0000 2020',
-    id: 1219688356642054100,
-    id_str: '1219688356642054145',
-    full_text: 'Shikhar Dhawan ruled out of India\'s New Zealand tour    https://t.co/UHUbusm9Du',
-    truncated: false,
-    display_text_range: [0, 79],
-    entities: {
-        hashtags: [],
-        symbols: [],
-        user_mentions: [],
-        urls: [Array]
-    },
-    metadata: {
-        iso_language_code: 'en',
-        result_type: 'recent'
-    },
-    source: '<a href="http://www.sutathu.com" rel="nofollow">Sutathu</a>',
-    in_reply_to_status_id: null,
-    in_reply_to_status_id_str: null,
-    in_reply_to_user_id: null,
-    in_reply_to_user_id_str: null,
-    in_reply_to_screen_name: null,
-    user: {
-        id: 1119295209068617700,
-        id_str: '1119295209068617728',
-        name: 'Sutathu - World News',
-        screen_name: 'Sutathu',
-        location: 'India',
-        description: 'https://t.co/JIww4lJ6X4 collects News from different source and automatically create videos to give the best experience.',
-        url: null,
-        entities: [Object],
-        protected: false,
-        followers_count: 9,
-        friends_count: 5,
-        listed_count: 1,
-        created_at: 'Fri Apr 19 17:42:28 +0000 2019',
-        favourites_count: 0,
-        utc_offset: null,
-        time_zone: null,
-        geo_enabled: false,
-        verified: false,
-        statuses_count: 12922,
-        lang: null,
-        contributors_enabled: false,
-        is_translator: false,
-        is_translation_enabled: false,
-        profile_background_color: '000000',
-        profile_background_image_url: 'http://abs.twimg.com/images/themes/theme1/bg.png',
-        profile_background_image_url_https: 'https://abs.twimg.com/images/themes/theme1/bg.png',
-        profile_background_tile: false,
-        profile_image_url: 'http://pbs.twimg.com/profile_images/1119296639636631552/77mMPDcq_normal.png',
-        profile_image_url_https: 'https://pbs.twimg.com/profile_images/1119296639636631552/77mMPDcq_normal.png',
-        profile_banner_url: 'https://pbs.twimg.com/profile_banners/1119295209068617728/1555695905',
-        profile_link_color: 'E81C4F',
-        profile_sidebar_border_color: '000000',
-        profile_sidebar_fill_color: '000000',
-        profile_text_color: '000000',
-        profile_use_background_image: false,
-        has_extended_profile: false,
-        default_profile: false,
-        default_profile_image: false,
-        following: false,
-        follow_request_sent: false,
-        notifications: false,
-        translator_type: 'none'
-    },
-    geo: null,
-    coordinates: null,
-    place: null,
-    contributors: null,
-    is_quote_status: false,
-    retweet_count: 0,
-    favorite_count: 0,
-    favorited: false,
-    retweeted: false,
-    possibly_sensitive: false,
-    lang: 'en'
-}, {
-    created_at: 'Tue Jan 21 18:28:58 +0000 2020',
-    id: 1219688351500030000,
-    id_str: '1219688351500029952',
-    full_text: '@Team_Peanut_ @RepDougCollins I never acted like we were China or India. In fact, I said Trump had destroyed environmental regulations...&amp; he has. He can say we are the cleanest all he wants but France, Sweden, Germany, UK, Australia, Switzerland, Portugal, New Zealand, Malta, Greece, &amp; 16 others are cleaner.',
-    truncated: false,
-    display_text_range: [30, 318],
-    entities: {
-        hashtags: [],
-        symbols: [],
-        user_mentions: [Array],
-        urls: []
-    },
-    metadata: {
-        iso_language_code: 'en',
-        result_type: 'recent'
-    },
-    source: '<a href="http://twitter.com/download/android" rel="nofollow">Twitter for Android</a>',
-    in_reply_to_status_id: 1219678101740720000,
-    in_reply_to_status_id_str: '1219678101740720129',
-    in_reply_to_user_id: 2533611883,
-    in_reply_to_user_id_str: '2533611883',
-    in_reply_to_screen_name: 'Team_Peanut_',
-    user: {
-        id: 121812623,
-        id_str: '121812623',
-        name: 'Jill King🌼🐾🍃',
-        screen_name: 'JillK1964',
-        location: 'North Carolina, USA',
-        description: 'Liberal AF in NC!  I\'m vegetarian & an animal lover!\n#ClimateChangeIsReal #TheResistance  #VoteBlue2020 #LGBTQAlly',
-        url: null,
-        entities: [Object],
-        protected: false,
-        followers_count: 7277,
-        friends_count: 7349,
-        listed_count: 20,
-        created_at: 'Wed Mar 10 17:28:14 +0000 2010',
-        favourites_count: 28452,
-        utc_offset: null,
-        time_zone: null,
-        geo_enabled: true,
-        verified: false,
-        statuses_count: 13158,
-        lang: null,
-        contributors_enabled: false,
-        is_translator: false,
-        is_translation_enabled: false,
-        profile_background_color: 'DD2E44',
-        profile_background_image_url: 'http://abs.twimg.com/images/themes/theme10/bg.gif',
-        profile_background_image_url_https: 'https://abs.twimg.com/images/themes/theme10/bg.gif',
-        profile_background_tile: true,
-        profile_image_url: 'http://pbs.twimg.com/profile_images/1187472038778163201/I7sFdueK_normal.jpg',
-        profile_image_url_https: 'https://pbs.twimg.com/profile_images/1187472038778163201/I7sFdueK_normal.jpg',
-        profile_banner_url: 'https://pbs.twimg.com/profile_banners/121812623/1578853799',
-        profile_link_color: '91D2FA',
-        profile_sidebar_border_color: '000000',
-        profile_sidebar_fill_color: '000000',
-        profile_text_color: '000000',
-        profile_use_background_image: true,
-        has_extended_profile: false,
-        default_profile: false,
-        default_profile_image: false,
-        following: false,
-        follow_request_sent: false,
-        notifications: false,
-        translator_type: 'none'
-    },
-    geo: null,
-    coordinates: null,
-    place: null,
-    contributors: null,
-    is_quote_status: false,
-    retweet_count: 0,
-    favorite_count: 0,
-    favorited: false,
-    retweeted: false,
-    lang: 'en'
-}, {
-    created_at: 'Tue Jan 21 18:28:49 +0000 2020',
-    id: 1219688313419747300,
-    id_str: '1219688313419747328',
-    full_text: '@JC_Sweaty @M0nkey_B0y @CharlieKae17 @rexjonesnews You can still own guns in Australia? I thought it was New Zealand that banned firearms not Australia.',
-    truncated: false,
-    display_text_range: [51, 152],
-    entities: {
-        hashtags: [],
-        symbols: [],
-        user_mentions: [Array],
-        urls: []
-    },
-    metadata: {
-        iso_language_code: 'en',
-        result_type: 'recent'
-    },
-    source: '<a href="http://twitter.com" rel="nofollow">Twitter Web Client</a>',
-    in_reply_to_status_id: 1219450106170114000,
-    in_reply_to_status_id_str: '1219450106170114048',
-    in_reply_to_user_id: 1192792314353086500,
-    in_reply_to_user_id_str: '1192792314353086464',
-    in_reply_to_screen_name: 'JC_Sweaty',
-    user: {
-        id: 1017170396,
-        id_str: '1017170396',
-        name: 'Lilpissant',
-        screen_name: 'Lilpissant',
-        location: '',
-        description: '',
-        url: null,
-        entities: [Object],
-        protected: false,
-        followers_count: 93,
-        friends_count: 342,
-        listed_count: 0,
-        created_at: 'Mon Dec 17 10:30:34 +0000 2012',
-        favourites_count: 1238,
-        utc_offset: null,
-        time_zone: null,
-        geo_enabled: false,
-        verified: false,
-        statuses_count: 8421,
-        lang: null,
-        contributors_enabled: false,
-        is_translator: false,
-        is_translation_enabled: false,
-        profile_background_color: 'C0DEED',
-        profile_background_image_url: 'http://abs.twimg.com/images/themes/theme1/bg.png',
-        profile_background_image_url_https: 'https://abs.twimg.com/images/themes/theme1/bg.png',
-        profile_background_tile: false,
-        profile_image_url: 'http://pbs.twimg.com/profile_images/1097769606985408513/KZWs20ji_normal.png',
-        profile_image_url_https: 'https://pbs.twimg.com/profile_images/1097769606985408513/KZWs20ji_normal.png',
-        profile_banner_url: 'https://pbs.twimg.com/profile_banners/1017170396/1560132345',
-        profile_link_color: '1DA1F2',
-        profile_sidebar_border_color: 'C0DEED',
-        profile_sidebar_fill_color: 'DDEEF6',
-        profile_text_color: '333333',
-        profile_use_background_image: true,
-        has_extended_profile: true,
-        default_profile: true,
-        default_profile_image: false,
-        following: false,
-        follow_request_sent: false,
-        notifications: false,
-        translator_type: 'none'
-    },
-    geo: null,
-    coordinates: null,
-    place: null,
-    contributors: null,
-    is_quote_status: false,
-    retweet_count: 0,
-    favorite_count: 0,
-    favorited: false,
-    retweeted: false,
-    lang: 'en'
-}, {
-    created_at: 'Tue Jan 21 18:28:43 +0000 2020',
-    id: 1219688287939571700,
-    id_str: '1219688287939571712',
-    full_text: 'Does anyone know were tf Old Zealand is. Because it sounds a lot more interesting then New Zealand',
-    truncated: false,
-    display_text_range: [0, 98],
-    entities: {
-        hashtags: [],
-        symbols: [],
-        user_mentions: [],
-        urls: []
-    },
-    metadata: {
-        iso_language_code: 'en',
-        result_type: 'recent'
-    },
-    source: '<a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>',
-    in_reply_to_status_id: null,
-    in_reply_to_status_id_str: null,
-    in_reply_to_user_id: null,
-    in_reply_to_user_id_str: null,
-    in_reply_to_screen_name: null,
-    user: {
-        id: 827447364881354800,
-        id_str: '827447364881354752',
-        name: 'Ceo of WII’s',
-        screen_name: 'LoWiitje',
-        location: 'Leuven, België',
-        description: 'twitch streamer with severe autism',
-        url: 'https://t.co/KxrpXY2gF2',
-        entities: [Object],
-        protected: false,
-        followers_count: 12,
-        friends_count: 230,
-        listed_count: 0,
-        created_at: 'Fri Feb 03 09:23:19 +0000 2017',
-        favourites_count: 1434,
-        utc_offset: null,
-        time_zone: null,
-        geo_enabled: true,
-        verified: false,
-        statuses_count: 74,
-        lang: null,
-        contributors_enabled: false,
-        is_translator: false,
-        is_translation_enabled: false,
-        profile_background_color: '000000',
-        profile_background_image_url: 'http://abs.twimg.com/images/themes/theme1/bg.png',
-        profile_background_image_url_https: 'https://abs.twimg.com/images/themes/theme1/bg.png',
-        profile_background_tile: false,
-        profile_image_url: 'http://pbs.twimg.com/profile_images/1219686622586982400/37rn53y1_normal.jpg',
-        profile_image_url_https: 'https://pbs.twimg.com/profile_images/1219686622586982400/37rn53y1_normal.jpg',
-        profile_banner_url: 'https://pbs.twimg.com/profile_banners/827447364881354752/1579631146',
-        profile_link_color: 'F58EA8',
-        profile_sidebar_border_color: '000000',
-        profile_sidebar_fill_color: '000000',
-        profile_text_color: '000000',
-        profile_use_background_image: false,
-        has_extended_profile: false,
-        default_profile: false,
-        default_profile_image: false,
-        following: false,
-        follow_request_sent: false,
-        notifications: false,
-        translator_type: 'none'
-    },
-    geo: null,
-    coordinates: null,
-    place: null,
-    contributors: null,
-    is_quote_status: false,
-    retweet_count: 0,
-    favorite_count: 0,
-    favorited: false,
-    retweeted: false,
-    lang: 'en'
-}, {
-    created_at: 'Tue Jan 21 18:28:40 +0000 2020',
-    id: 1219688277466386400,
-    id_str: '1219688277466386433',
-    full_text: 'India’s ODI squad for New Zealand series announced; Shikhar Dhawan ruled out https://t.co/RemiTXc0i0 https://t.co/nsONVOzhjU',
-    truncated: false,
-    display_text_range: [0, 100],
-    entities: {
-        hashtags: [],
-        symbols: [],
-        user_mentions: [],
-        urls: [Array],
-        media: [Array]
-    },
-    extended_entities: {
-        media: [Array]
-    },
-    metadata: {
-        iso_language_code: 'en',
-        result_type: 'recent'
-    },
-    source: '<a href="http://publicize.wp.com/" rel="nofollow">WordPress.com</a>',
-    in_reply_to_status_id: null,
-    in_reply_to_status_id_str: null,
-    in_reply_to_user_id: null,
-    in_reply_to_user_id_str: null,
-    in_reply_to_screen_name: null,
-    user: {
-        id: 2566260660,
-        id_str: '2566260660',
-        name: 'Udaipur Kiran',
-        screen_name: 'UdaipurKiran',
-        location: 'udaipur',
-        description: '',
-        url: 'http://t.co/RsQjt62scc',
-        entities: [Object],
-        protected: false,
-        followers_count: 507,
-        friends_count: 129,
-        listed_count: 26,
-        created_at: 'Sat Jun 14 02:18:52 +0000 2014',
-        favourites_count: 4,
-        utc_offset: null,
-        time_zone: null,
-        geo_enabled: false,
-        verified: false,
-        statuses_count: 58859,
-        lang: null,
-        contributors_enabled: false,
-        is_translator: false,
-        is_translation_enabled: false,
-        profile_background_color: 'C0DEED',
-        profile_background_image_url: 'http://abs.twimg.com/images/themes/theme1/bg.png',
-        profile_background_image_url_https: 'https://abs.twimg.com/images/themes/theme1/bg.png',
-        profile_background_tile: false,
-        profile_image_url: 'http://pbs.twimg.com/profile_images/477638306063056896/WLq6n1WR_normal.jpeg',
-        profile_image_url_https: 'https://pbs.twimg.com/profile_images/477638306063056896/WLq6n1WR_normal.jpeg',
-        profile_link_color: '1DA1F2',
-        profile_sidebar_border_color: 'C0DEED',
-        profile_sidebar_fill_color: 'DDEEF6',
-        profile_text_color: '333333',
-        profile_use_background_image: true,
-        has_extended_profile: false,
-        default_profile: true,
-        default_profile_image: false,
-        following: false,
-        follow_request_sent: false,
-        notifications: false,
-        translator_type: 'none'
-    },
-    geo: null,
-    coordinates: null,
-    place: null,
-    contributors: null,
-    is_quote_status: false,
-    retweet_count: 0,
-    favorite_count: 0,
-    favorited: false,
-    retweeted: false,
-    possibly_sensitive: false,
-    lang: 'en'
-}, {
-    created_at: 'Tue Jan 21 18:28:33 +0000 2020',
-    id: 1219688247980437500,
-    id_str: '1219688247980437506',
-    full_text: 'Rosè ~ New Zealand https://t.co/bC4eFVPhGW',
-    truncated: false,
-    display_text_range: [0, 18],
-    entities: {
-        hashtags: [],
-        symbols: [],
-        user_mentions: [],
-        urls: [],
-        media: [Array]
-    },
-    extended_entities: {
-        media: [Array]
-    },
-    metadata: {
-        iso_language_code: 'ht',
-        result_type: 'recent'
-    },
-    source: '<a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>',
-    in_reply_to_status_id: null,
-    in_reply_to_status_id_str: null,
-    in_reply_to_user_id: null,
-    in_reply_to_user_id_str: null,
-    in_reply_to_screen_name: null,
-    user: {
-        id: 1213396415512105000,
-        id_str: '1213396415512104965',
-        name: '@heart_attack.chuux',
-        screen_name: 'heart_attack_x',
-        location: '',
-        description: '🍒',
-        url: null,
-        entities: [Object],
-        protected: false,
-        followers_count: 0,
-        friends_count: 52,
-        listed_count: 0,
-        created_at: 'Sat Jan 04 09:47:13 +0000 2020',
-        favourites_count: 7,
-        utc_offset: null,
-        time_zone: null,
-        geo_enabled: false,
-        verified: false,
-        statuses_count: 117,
-        lang: null,
-        contributors_enabled: false,
-        is_translator: false,
-        is_translation_enabled: false,
-        profile_background_color: 'F5F8FA',
-        profile_background_image_url: null,
-        profile_background_image_url_https: null,
-        profile_background_tile: false,
-        profile_image_url: 'http://pbs.twimg.com/profile_images/1218471246486216704/WRXnWAy1_normal.jpg',
-        profile_image_url_https: 'https://pbs.twimg.com/profile_images/1218471246486216704/WRXnWAy1_normal.jpg',
-        profile_banner_url: 'https://pbs.twimg.com/profile_banners/1213396415512104965/1579347734',
-        profile_link_color: '1DA1F2',
-        profile_sidebar_border_color: 'C0DEED',
-        profile_sidebar_fill_color: 'DDEEF6',
-        profile_text_color: '333333',
-        profile_use_background_image: true,
-        has_extended_profile: false,
-        default_profile: true,
-        default_profile_image: false,
-        following: false,
-        follow_request_sent: false,
-        notifications: false,
-        translator_type: 'none'
-    },
-    geo: null,
-    coordinates: null,
-    place: null,
-    contributors: null,
-    is_quote_status: false,
-    retweet_count: 0,
-    favorite_count: 0,
-    favorited: false,
-    retweeted: false,
-    possibly_sensitive: false,
-    lang: 'ht'
-}]
+    "created_at": "Fri Jan 24 10:56:25 +0000 2020",
+    "id": 1220661626631667700,
+    "id_str": "1220661626631667712",
+    "full_text": "#ShreyasIyer ने लगाया विजयी छक्का, \nManish Pandey ने निभाया बखूबी साथ..KL Rahul और Kohli ने सुधारी शुरुआत, पहले टी-20 में #NewZealand की हार.. #NZvsIND\n#NZAvINDA #TeamIndia\nhttps://t.co/iIUhn2cCDS",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      196
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "ShreyasIyer",
+          "indices": [
+            0,
+            12
+          ]
+        },
+        {
+          "text": "NewZealand",
+          "indices": [
+            122,
+            133
+          ]
+        },
+        {
+          "text": "NZvsIND",
+          "indices": [
+            143,
+            151
+          ]
+        },
+        {
+          "text": "NZAvINDA",
+          "indices": [
+            152,
+            161
+          ]
+        },
+        {
+          "text": "TeamIndia",
+          "indices": [
+            162,
+            172
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/iIUhn2cCDS",
+          "expanded_url": "https://www.amarujala.com/cricket/cricket-news/india-vs-new-zealand-1st-t20i-live-cricket-score-match-updates",
+          "display_url": "amarujala.com/cricket/cricke…",
+          "indices": [
+            173,
+            196
+          ]
+        }
+      ]
+    },
+    "metadata": {
+      "iso_language_code": "hi",
+      "result_type": "recent"
+    },
+    "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 169018518,
+      "id_str": "169018518",
+      "name": "Amar Ujala",
+      "screen_name": "AmarUjalaNews",
+      "location": "India",
+      "description": "जोश ! सच का ! देश और दुनिया की पल पल की खबरों से जुड़े रहने के लिए लॉग ऑन करें- https://t.co/6LUIiJvXZU #HindiNews #IndiaNews #LatestNews",
+      "url": "https://t.co/g0G0X2RiRs",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/g0G0X2RiRs",
+              "expanded_url": "http://www.amarujala.com",
+              "display_url": "amarujala.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "https://t.co/6LUIiJvXZU",
+              "expanded_url": "http://amarujala.com",
+              "display_url": "amarujala.com",
+              "indices": [
+                79,
+                102
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 1010671,
+      "friends_count": 76,
+      "listed_count": 858,
+      "created_at": "Wed Jul 21 10:04:08 +0000 2010",
+      "favourites_count": 1283,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 210838,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "E8E8E8",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme5/bg.gif",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme5/bg.gif",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1122140125830369285/S92H0Z_1_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1122140125830369285/S92H0Z_1_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/169018518/1579853648",
+      "profile_link_color": "3B94D9",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "F2F2F2",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 10,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "hi"
+  },
+  {
+    "created_at": "Fri Jan 24 10:56:19 +0000 2020",
+    "id": 1220661602036277200,
+    "id_str": "1220661602036277248",
+    "full_text": "Supetb batting displayed by @ShreyasIyer15 to make India win the T20 cricket match vs New Zealand.",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      98
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "ShreyasIyer15",
+          "name": "Shreyas Iyer",
+          "id": 966980546600595500,
+          "id_str": "966980546600595456",
+          "indices": [
+            28,
+            42
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "recent"
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 1219532202720972800,
+      "id_str": "1219532202720972800",
+      "name": "Swagfree.com Show Your Swag Free",
+      "screen_name": "swagfreedotcom",
+      "location": "",
+      "description": "",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 0,
+      "friends_count": 0,
+      "listed_count": 0,
+      "created_at": "Tue Jan 21 08:09:33 +0000 2020",
+      "favourites_count": 0,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 4,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": null,
+      "profile_background_image_url_https": null,
+      "profile_background_tile": false,
+      "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+      "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": true,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Fri Jan 24 10:56:08 +0000 2020",
+    "id": 1220661556700008400,
+    "id_str": "1220661556700008449",
+    "full_text": "India vs New Zealand | Shreyas Iyer, KL Rahul Help India Win Run-Fest in Auckland https://t.co/3Kuk5dmYCC https://t.co/1u3GGZZxyQ",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      105
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/3Kuk5dmYCC",
+          "expanded_url": "http://dlvr.it/RNfvKB",
+          "display_url": "dlvr.it/RNfvKB",
+          "indices": [
+            82,
+            105
+          ]
+        }
+      ],
+      "media": [
+        {
+          "id": 1220661554980352000,
+          "id_str": "1220661554980352000",
+          "indices": [
+            106,
+            129
+          ],
+          "media_url": "http://pbs.twimg.com/media/EPCpN4eUcAABXcB.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/EPCpN4eUcAABXcB.jpg",
+          "url": "https://t.co/1u3GGZZxyQ",
+          "display_url": "pic.twitter.com/1u3GGZZxyQ",
+          "expanded_url": "https://twitter.com/Sportsgriduk/status/1220661556700008449/photo/1",
+          "type": "photo",
+          "sizes": {
+            "small": {
+              "w": 680,
+              "h": 453,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 875,
+              "h": 583,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 875,
+              "h": 583,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1220661554980352000,
+          "id_str": "1220661554980352000",
+          "indices": [
+            106,
+            129
+          ],
+          "media_url": "http://pbs.twimg.com/media/EPCpN4eUcAABXcB.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/EPCpN4eUcAABXcB.jpg",
+          "url": "https://t.co/1u3GGZZxyQ",
+          "display_url": "pic.twitter.com/1u3GGZZxyQ",
+          "expanded_url": "https://twitter.com/Sportsgriduk/status/1220661556700008449/photo/1",
+          "type": "photo",
+          "sizes": {
+            "small": {
+              "w": 680,
+              "h": 453,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 875,
+              "h": 583,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 875,
+              "h": 583,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "iso_language_code": "in",
+      "result_type": "recent"
+    },
+    "source": "<a href=\"https://dlvrit.com/\" rel=\"nofollow\">dlvr.it</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 815505489119379500,
+      "id_str": "815505489119379457",
+      "name": "SportsGridUK",
+      "screen_name": "Sportsgriduk",
+      "location": "London, England",
+      "description": "All about sports.\n#sportsgridUK\n\nFast moving sports news\n#takeacloserlookatsports",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 851,
+      "friends_count": 4911,
+      "listed_count": 1,
+      "created_at": "Sun Jan 01 10:30:34 +0000 2017",
+      "favourites_count": 132,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 212224,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/977565218275512320/au_z4500_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/977565218275512320/au_z4500_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/815505489119379457/1554246521",
+      "profile_link_color": "91D2FA",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "in"
+  },
+  {
+    "created_at": "Fri Jan 24 10:56:06 +0000 2020",
+    "id": 1220661548999303200,
+    "id_str": "1220661548999303169",
+    "full_text": "1st T20, \n🇮🇳 India won by 6 wkts vs New Zealand &amp; LEAD 5 match series 1-0.\nTarget 204.\n🇮🇳 India 204/4 in 19 overs. \nShreyas Iyer 58*(29),\nK L Rahul 56(27),\nVirat Kohli 45(32),\nSodhi 2/36🏏\n#NZvIND @BLACKCAPS #NewZealand @BCCI #TeamIndia #MenInBlue #T20I #T20 #T20series #cricview https://t.co/yyrzH6LA6v",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      282
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "NZvIND",
+          "indices": [
+            192,
+            199
+          ]
+        },
+        {
+          "text": "NewZealand",
+          "indices": [
+            211,
+            222
+          ]
+        },
+        {
+          "text": "TeamIndia",
+          "indices": [
+            229,
+            239
+          ]
+        },
+        {
+          "text": "MenInBlue",
+          "indices": [
+            240,
+            250
+          ]
+        },
+        {
+          "text": "T20I",
+          "indices": [
+            251,
+            256
+          ]
+        },
+        {
+          "text": "T20",
+          "indices": [
+            257,
+            261
+          ]
+        },
+        {
+          "text": "T20series",
+          "indices": [
+            262,
+            272
+          ]
+        },
+        {
+          "text": "cricview",
+          "indices": [
+            273,
+            282
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "BLACKCAPS",
+          "name": "BLACKCAPS",
+          "id": 21367580,
+          "id_str": "21367580",
+          "indices": [
+            200,
+            210
+          ]
+        },
+        {
+          "screen_name": "BCCI",
+          "name": "BCCI",
+          "id": 185142711,
+          "id_str": "185142711",
+          "indices": [
+            223,
+            228
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 1220661517709987800,
+          "id_str": "1220661517709987840",
+          "indices": [
+            283,
+            306
+          ],
+          "media_url": "http://pbs.twimg.com/media/EPCpLtoX0AAJbn9.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/EPCpLtoX0AAJbn9.jpg",
+          "url": "https://t.co/yyrzH6LA6v",
+          "display_url": "pic.twitter.com/yyrzH6LA6v",
+          "expanded_url": "https://twitter.com/cricviewmedia/status/1220661548999303169/photo/1",
+          "type": "photo",
+          "sizes": {
+            "small": {
+              "w": 680,
+              "h": 679,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1086,
+              "h": 1085,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 1086,
+              "h": 1085,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1220661517709987800,
+          "id_str": "1220661517709987840",
+          "indices": [
+            283,
+            306
+          ],
+          "media_url": "http://pbs.twimg.com/media/EPCpLtoX0AAJbn9.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/EPCpLtoX0AAJbn9.jpg",
+          "url": "https://t.co/yyrzH6LA6v",
+          "display_url": "pic.twitter.com/yyrzH6LA6v",
+          "expanded_url": "https://twitter.com/cricviewmedia/status/1220661548999303169/photo/1",
+          "type": "photo",
+          "sizes": {
+            "small": {
+              "w": 680,
+              "h": 679,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1086,
+              "h": 1085,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 1086,
+              "h": 1085,
+              "resize": "fit"
+            }
+          }
+        },
+        {
+          "id": 1220661531089739800,
+          "id_str": "1220661531089739776",
+          "indices": [
+            283,
+            306
+          ],
+          "media_url": "http://pbs.twimg.com/media/EPCpMfeWoAA3h75.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/EPCpMfeWoAA3h75.jpg",
+          "url": "https://t.co/yyrzH6LA6v",
+          "display_url": "pic.twitter.com/yyrzH6LA6v",
+          "expanded_url": "https://twitter.com/cricviewmedia/status/1220661548999303169/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 655,
+              "h": 654,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 655,
+              "h": 654,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 655,
+              "h": 654,
+              "resize": "fit"
+            }
+          }
+        },
+        {
+          "id": 1220661538811457500,
+          "id_str": "1220661538811457536",
+          "indices": [
+            283,
+            306
+          ],
+          "media_url": "http://pbs.twimg.com/media/EPCpM8PWsAANDhn.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/EPCpM8PWsAANDhn.jpg",
+          "url": "https://t.co/yyrzH6LA6v",
+          "display_url": "pic.twitter.com/yyrzH6LA6v",
+          "expanded_url": "https://twitter.com/cricviewmedia/status/1220661548999303169/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 705,
+              "h": 900,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 705,
+              "h": 900,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 533,
+              "h": 680,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "recent"
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 971240580637429800,
+      "id_str": "971240580637429766",
+      "name": "CRICVIEW Media©️",
+      "screen_name": "cricviewmedia",
+      "location": "India",
+      "description": "Cricket News, Interviews, Coaching and Match Analysis ▶️https://t.co/kOjip6soRr",
+      "url": "https://t.co/PXxvWfDHQh",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/PXxvWfDHQh",
+              "expanded_url": "http://www.cricview.in",
+              "display_url": "cricview.in",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "https://t.co/kOjip6soRr",
+              "expanded_url": "http://YouTube.com/cricviewmedia",
+              "display_url": "YouTube.com/cricviewmedia",
+              "indices": [
+                56,
+                79
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 454,
+      "friends_count": 1983,
+      "listed_count": 4,
+      "created_at": "Wed Mar 07 04:26:13 +0000 2018",
+      "favourites_count": 11065,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 12378,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": null,
+      "profile_background_image_url_https": null,
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1098290670308155394/FQNFjgyX_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1098290670308155394/FQNFjgyX_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/971240580637429766/1579762280",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": true,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Fri Jan 24 10:56:04 +0000 2020",
+    "id": 1220661539025256400,
+    "id_str": "1220661539025256448",
+    "full_text": "New Zealand vs India, 1st T20 : భారత్ ఘన విజయం https://t.co/xomIrOETy3",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      70
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/xomIrOETy3",
+          "expanded_url": "http://www.hmtvlive.com/sports/india-won-the-match-against-of-new-zealand-38238?utm_source=web-social-share&utm_partner=hmtv&utm_campaign=share&utm_medium=twitter",
+          "display_url": "hmtvlive.com/sports/india-w…",
+          "indices": [
+            47,
+            70
+          ]
+        }
+      ]
+    },
+    "metadata": {
+      "iso_language_code": "eu",
+      "result_type": "recent"
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 183491124,
+      "id_str": "183491124",
+      "name": "hmtv News",
+      "screen_name": "hmtvnewslive",
+      "location": "Hyderabad",
+      "description": "HMTV is a leading Telugu news channel. This page is your destination for the fastest news updates on Twitter!",
+      "url": "http://t.co/gnxWKoB6IO",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/gnxWKoB6IO",
+              "expanded_url": "http://www.hmtvlive.com",
+              "display_url": "hmtvlive.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 29752,
+      "friends_count": 1079,
+      "listed_count": 49,
+      "created_at": "Fri Aug 27 03:32:41 +0000 2010",
+      "favourites_count": 44,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 67708,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/852509186873110528/_be7PnbG_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/852509186873110528/_be7PnbG_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/183491124/1578718730",
+      "profile_link_color": "DD2E44",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "eu"
+  },
+  {
+    "created_at": "Fri Jan 24 10:56:03 +0000 2020",
+    "id": 1220661537444024300,
+    "id_str": "1220661537444024326",
+    "full_text": "George Worke's ton helps New Zealand A beat India A in second unofficial ODI https://t.co/3SHFQXNOZQ https://t.co/dp8GRuwWXV",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      100
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/3SHFQXNOZQ",
+          "expanded_url": "http://dlvr.it/RNfvFy",
+          "display_url": "dlvr.it/RNfvFy",
+          "indices": [
+            77,
+            100
+          ]
+        }
+      ],
+      "media": [
+        {
+          "id": 1220661535518756900,
+          "id_str": "1220661535518756865",
+          "indices": [
+            101,
+            124
+          ],
+          "media_url": "http://pbs.twimg.com/media/EPCpMv-UEAEPlFe.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/EPCpMv-UEAEPlFe.jpg",
+          "url": "https://t.co/dp8GRuwWXV",
+          "display_url": "pic.twitter.com/dp8GRuwWXV",
+          "expanded_url": "https://twitter.com/margemaarnewale/status/1220661537444024326/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 970,
+              "h": 545,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 382,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 970,
+              "h": 545,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1220661535518756900,
+          "id_str": "1220661535518756865",
+          "indices": [
+            101,
+            124
+          ],
+          "media_url": "http://pbs.twimg.com/media/EPCpMv-UEAEPlFe.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/EPCpMv-UEAEPlFe.jpg",
+          "url": "https://t.co/dp8GRuwWXV",
+          "display_url": "pic.twitter.com/dp8GRuwWXV",
+          "expanded_url": "https://twitter.com/margemaarnewale/status/1220661537444024326/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 970,
+              "h": 545,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 382,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 970,
+              "h": 545,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "recent"
+    },
+    "source": "<a href=\"https://dlvrit.com/\" rel=\"nofollow\">dlvr.it</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 784356606783860700,
+      "id_str": "784356606783860736",
+      "name": "Marge Maarne Wale",
+      "screen_name": "margemaarnewale",
+      "location": "",
+      "description": "",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 99,
+      "friends_count": 12,
+      "listed_count": 5,
+      "created_at": "Fri Oct 07 11:36:02 +0000 2016",
+      "favourites_count": 1,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 22517,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": null,
+      "profile_background_image_url_https": null,
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/784361784773750784/eTu0nkxo_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/784361784773750784/eTu0nkxo_normal.jpg",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Fri Jan 24 10:56:01 +0000 2020",
+    "id": 1220661529135071200,
+    "id_str": "1220661529135071233",
+    "full_text": "1st T20 #NZvsIND at Auckland:  India beat New Zealand by 6 wickets; led the 5-match series 1-0\n\nNEW ZEALAND: 203/5 (20 overs)\nINDIA: 204/4 (19 overs) https://t.co/mwLxEPNRCc",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      173
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "NZvsIND",
+          "indices": [
+            8,
+            16
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [],
+      "media": [
+        {
+          "id": 1220654905263714300,
+          "id_str": "1220654905263714304",
+          "indices": [
+            150,
+            173
+          ],
+          "media_url": "http://pbs.twimg.com/media/EPCjK0WU8AA3wrs.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/EPCjK0WU8AA3wrs.jpg",
+          "url": "https://t.co/mwLxEPNRCc",
+          "display_url": "pic.twitter.com/mwLxEPNRCc",
+          "expanded_url": "https://twitter.com/DDNewslive/status/1220654912607928320/photo/1",
+          "type": "photo",
+          "sizes": {
+            "small": {
+              "w": 680,
+              "h": 413,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 680,
+              "h": 413,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 680,
+              "h": 413,
+              "resize": "fit"
+            }
+          },
+          "source_status_id": 1220654912607928300,
+          "source_status_id_str": "1220654912607928320",
+          "source_user_id": 1100927498,
+          "source_user_id_str": "1100927498"
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1220654905263714300,
+          "id_str": "1220654905263714304",
+          "indices": [
+            150,
+            173
+          ],
+          "media_url": "http://pbs.twimg.com/media/EPCjK0WU8AA3wrs.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/EPCjK0WU8AA3wrs.jpg",
+          "url": "https://t.co/mwLxEPNRCc",
+          "display_url": "pic.twitter.com/mwLxEPNRCc",
+          "expanded_url": "https://twitter.com/DDNewslive/status/1220654912607928320/photo/1",
+          "type": "photo",
+          "sizes": {
+            "small": {
+              "w": 680,
+              "h": 413,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 680,
+              "h": 413,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 680,
+              "h": 413,
+              "resize": "fit"
+            }
+          },
+          "source_status_id": 1220654912607928300,
+          "source_status_id_str": "1220654912607928320",
+          "source_user_id": 1100927498,
+          "source_user_id_str": "1100927498"
+        }
+      ]
+    },
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "recent"
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 938813331892084700,
+      "id_str": "938813331892084736",
+      "name": "🌹ಭದ್ರಾವತಿ.ಚನ್ನಪ್ಪ.. Suresha 🌹 ,🇮🇳",
+      "screen_name": "sureshapoojar",
+      "location": "Mysuru, 🇮🇳",
+      "description": "Automobile Engineer/Farmer/Nature/Animals/ lover..intrested.in.New technology/Agriculture..HINDUSTAN.. First..others second..twetts r my personal opinions..",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 116,
+      "friends_count": 33,
+      "listed_count": 2,
+      "created_at": "Thu Dec 07 16:51:55 +0000 2017",
+      "favourites_count": 3704,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 11856,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": null,
+      "profile_background_image_url_https": null,
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1212374224230158337/UIvzA8XE_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1212374224230158337/UIvzA8XE_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/938813331892084736/1528117178",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Fri Jan 24 10:56:01 +0000 2020",
+    "id": 1220661527671271400,
+    "id_str": "1220661527671271424",
+    "full_text": "India overcame New Zealand's challenge with ease as KL Rahul and #ShreyasIyer scored fine half-centuries to give India a 1-0 lead in the five-match series\n\n#NZvIND\n#NZvsIND\n#INDvNZ\n#INDvsNZ\n\nhttps://t.co/5CocBo5Vye",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      214
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "ShreyasIyer",
+          "indices": [
+            65,
+            77
+          ]
+        },
+        {
+          "text": "NZvIND",
+          "indices": [
+            156,
+            163
+          ]
+        },
+        {
+          "text": "NZvsIND",
+          "indices": [
+            164,
+            172
+          ]
+        },
+        {
+          "text": "INDvNZ",
+          "indices": [
+            173,
+            180
+          ]
+        },
+        {
+          "text": "INDvsNZ",
+          "indices": [
+            181,
+            189
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/5CocBo5Vye",
+          "expanded_url": "https://sports.ndtv.com/new-zealand-vs-india-2020/kl-rahul-shreyas-iyer-fifties-help-india-chase-down-204-run-target-vs-new-zealand-2169176",
+          "display_url": "sports.ndtv.com/new-zealand-vs…",
+          "indices": [
+            191,
+            214
+          ]
+        }
+      ]
+    },
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "recent"
+    },
+    "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 71487564,
+      "id_str": "71487564",
+      "name": "CricketNDTV",
+      "screen_name": "CricketNDTV",
+      "location": "India",
+      "description": "Catch all the latest news from the world of Cricket!",
+      "url": "https://t.co/qcJcwocm65",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/qcJcwocm65",
+              "expanded_url": "http://sports.ndtv.com/cricket",
+              "display_url": "sports.ndtv.com/cricket",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 1809471,
+      "friends_count": 10,
+      "listed_count": 909,
+      "created_at": "Fri Sep 04 08:21:55 +0000 2009",
+      "favourites_count": 6,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": true,
+      "statuses_count": 128263,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/566805159800344577/HSTYu5XU_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/566805159800344577/HSTYu5XU_normal.png",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 3,
+    "favorite_count": 9,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Fri Jan 24 10:55:55 +0000 2020",
+    "id": 1220661500559278000,
+    "id_str": "1220661500559278080",
+    "full_text": "#INDvNZ 1st T20I match report: India beat New Zealand 6 wickets at Auckland.\n\nhttps://t.co/RHTNttR7qb",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      101
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "INDvNZ",
+          "indices": [
+            0,
+            7
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/RHTNttR7qb",
+          "expanded_url": "https://www.hindustantimes.com/cricket/shreyas-iyer-kl-rahul-put-on-a-show-of-class-as-india-outclass-new-zealand-by-6-wickets-in-1st-t20i-at-auckland/story-FHcFFDIjN7ROZLdo7Oj9KO.html",
+          "display_url": "hindustantimes.com/cricket/shreya…",
+          "indices": [
+            78,
+            101
+          ]
+        }
+      ]
+    },
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "recent"
+    },
+    "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 2532884354,
+      "id_str": "2532884354",
+      "name": "HT Sports",
+      "screen_name": "HTSportsNews",
+      "location": "India",
+      "description": "India's premier destination for cricket, football, tennis and other sports from all over the world.",
+      "url": "http://t.co/4q7tpTsmJ2",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/4q7tpTsmJ2",
+              "expanded_url": "http://hindustantimes.com",
+              "display_url": "hindustantimes.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 95925,
+      "friends_count": 388,
+      "listed_count": 373,
+      "created_at": "Thu May 29 15:42:59 +0000 2014",
+      "favourites_count": 340,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": true,
+      "statuses_count": 98128,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/543702698172743681/AZH87fTH_normal.jpeg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/543702698172743681/AZH87fTH_normal.jpeg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/2532884354/1574432058",
+      "profile_link_color": "0084B4",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 5,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Fri Jan 24 10:55:53 +0000 2020",
+    "id": 1220661495236833300,
+    "id_str": "1220661495236833280",
+    "full_text": "विराट आणि राहुल हे अनुभवी बॅटस् मन आऊट झाल्यानंतर भारतीय गोटात चिंता वाढली होती. पण, श्रेयसनं पुन्हा एकदा विश्वास सार्थ ठरवला. #Sakal #SakalNews #SakalMedia #TeamIndia #Cricket #INDvsNZ #NZvIND \nhttps://t.co/Lr5fFkuQAg",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      218
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "Sakal",
+          "indices": [
+            127,
+            133
+          ]
+        },
+        {
+          "text": "SakalNews",
+          "indices": [
+            134,
+            144
+          ]
+        },
+        {
+          "text": "SakalMedia",
+          "indices": [
+            145,
+            156
+          ]
+        },
+        {
+          "text": "TeamIndia",
+          "indices": [
+            157,
+            167
+          ]
+        },
+        {
+          "text": "Cricket",
+          "indices": [
+            168,
+            176
+          ]
+        },
+        {
+          "text": "INDvsNZ",
+          "indices": [
+            177,
+            185
+          ]
+        },
+        {
+          "text": "NZvIND",
+          "indices": [
+            186,
+            193
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/Lr5fFkuQAg",
+          "expanded_url": "https://www.esakal.com/krida/team-india-won-6-wickets-against-new-zealand-first-t20-match-2020-255370",
+          "display_url": "esakal.com/krida/team-ind…",
+          "indices": [
+            195,
+            218
+          ]
+        }
+      ]
+    },
+    "metadata": {
+      "iso_language_code": "mr",
+      "result_type": "recent"
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 85306437,
+      "id_str": "85306437",
+      "name": "sakalmedia",
+      "screen_name": "SakalMediaNews",
+      "location": "595, Budhwar Peth, Pune",
+      "description": "Since 1932.\nमहाराष्ट्रतील नं. १ वृत्तपत्र \nLeading Marathi daily from Pune 🗞\nNews from Maharashtra & around the world 🌏",
+      "url": "http://t.co/Rpaaxas3os",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/Rpaaxas3os",
+              "expanded_url": "http://www.esakal.com",
+              "display_url": "esakal.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 109897,
+      "friends_count": 7,
+      "listed_count": 515,
+      "created_at": "Mon Oct 26 12:47:27 +0000 2009",
+      "favourites_count": 396,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 98941,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "0165B1",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1169493027821211650/XPYLbI_l_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1169493027821211650/XPYLbI_l_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/85306437/1567665144",
+      "profile_link_color": "0084B4",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 3,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "mr"
+  },
+  {
+    "created_at": "Fri Jan 24 10:55:47 +0000 2020",
+    "id": 1220661469362057200,
+    "id_str": "1220661469362057216",
+    "full_text": "@BCCI @imVkohli And Captain @imVkohli wins the match chasing in the 1st T20I against New Zealand.",
+    "truncated": false,
+    "display_text_range": [
+      16,
+      97
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "BCCI",
+          "name": "BCCI",
+          "id": 185142711,
+          "id_str": "185142711",
+          "indices": [
+            0,
+            5
+          ]
+        },
+        {
+          "screen_name": "imVkohli",
+          "name": "Virat Kohli",
+          "id": 71201743,
+          "id_str": "71201743",
+          "indices": [
+            6,
+            15
+          ]
+        },
+        {
+          "screen_name": "imVkohli",
+          "name": "Virat Kohli",
+          "id": 71201743,
+          "id_str": "71201743",
+          "indices": [
+            28,
+            37
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "recent"
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": 1220592613905973200,
+    "in_reply_to_status_id_str": "1220592613905973250",
+    "in_reply_to_user_id": 185142711,
+    "in_reply_to_user_id_str": "185142711",
+    "in_reply_to_screen_name": "BCCI",
+    "user": {
+      "id": 497605540,
+      "id_str": "497605540",
+      "name": "Siddhartha Sankar Dutta",
+      "screen_name": "OnlySiddhartha",
+      "location": "Kolkata, India",
+      "description": "Proud to be Awarded by @sachin_rt  \n                    Student! Contest Freak! Gadgets Freak! \n              Will Die on our feet rather than living on knees.",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 1629,
+      "friends_count": 1964,
+      "listed_count": 12,
+      "created_at": "Mon Feb 20 05:19:32 +0000 2012",
+      "favourites_count": 98733,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 95076,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1204536287526453248/Gg2SmTyJ_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1204536287526453248/Gg2SmTyJ_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/497605540/1569013388",
+      "profile_link_color": "91D2FA",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Fri Jan 24 10:55:45 +0000 2020",
+    "id": 1220661459224383500,
+    "id_str": "1220661459224383488",
+    "full_text": "@RanaAyyub Bad news for u India won T20 match against New Zealand.",
+    "truncated": false,
+    "display_text_range": [
+      11,
+      66
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "RanaAyyub",
+          "name": "Rana Ayyub",
+          "id": 268676434,
+          "id_str": "268676434",
+          "indices": [
+            0,
+            10
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "recent"
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": 1220659975858589700,
+    "in_reply_to_status_id_str": "1220659975858589702",
+    "in_reply_to_user_id": 268676434,
+    "in_reply_to_user_id_str": "268676434",
+    "in_reply_to_screen_name": "RanaAyyub",
+    "user": {
+      "id": 4056779606,
+      "id_str": "4056779606",
+      "name": "Rahul Su",
+      "screen_name": "srahul13s",
+      "location": "",
+      "description": "",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 88,
+      "friends_count": 237,
+      "listed_count": 0,
+      "created_at": "Thu Oct 29 10:54:50 +0000 2015",
+      "favourites_count": 5674,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 5719,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1206960206980079616/48YAcfI8_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1206960206980079616/48YAcfI8_normal.jpg",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 2,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Fri Jan 24 10:55:39 +0000 2020",
+    "id": 1220661434964574200,
+    "id_str": "1220661434964574208",
+    "full_text": "IND vs NZ: राहुल-अय्यर के दम पर भारत ने ऑकलैैंड में दर्ज की ऐतिहासिक जीत, 6 विकेट से हराया \n#INDvNZ #INDvsNZ #KLRahul #ShreyasIyer #MykhelHIndi via- @myKhelHindi \nhttps://t.co/DCqaLSyXDn",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      186
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "INDvNZ",
+          "indices": [
+            92,
+            99
+          ]
+        },
+        {
+          "text": "INDvsNZ",
+          "indices": [
+            100,
+            108
+          ]
+        },
+        {
+          "text": "KLRahul",
+          "indices": [
+            109,
+            117
+          ]
+        },
+        {
+          "text": "ShreyasIyer",
+          "indices": [
+            118,
+            130
+          ]
+        },
+        {
+          "text": "MykhelHIndi",
+          "indices": [
+            131,
+            143
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "myKhelHindi",
+          "name": "myKhel Hindi",
+          "id": 927470589878480900,
+          "id_str": "927470589878480896",
+          "indices": [
+            149,
+            161
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/DCqaLSyXDn",
+          "expanded_url": "https://hindi.mykhel.com/cricket/india-vs-new-zealand-1st-t20i-match-highlights-shreyas-iyer-kl-rahul-lead-india-to-chase-historical-040288.html",
+          "display_url": "hindi.mykhel.com/cricket/india-…",
+          "indices": [
+            163,
+            186
+          ]
+        }
+      ]
+    },
+    "metadata": {
+      "iso_language_code": "hi",
+      "result_type": "recent"
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 18186549,
+      "id_str": "18186549",
+      "name": "Oneindia Hindi",
+      "screen_name": "oneindiaHindi",
+      "location": "Bangalore",
+      "description": "देश-दुनिया, अपने राज्य और शहर की सच्ची और अच्छी खबरों से पल-पल रहें अपडेट - https://t.co/DEEEMe6myH",
+      "url": "https://t.co/DEEEMe6myH",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/DEEEMe6myH",
+              "expanded_url": "http://hindi.oneindia.com/",
+              "display_url": "hindi.oneindia.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "https://t.co/DEEEMe6myH",
+              "expanded_url": "http://hindi.oneindia.com/",
+              "display_url": "hindi.oneindia.com",
+              "indices": [
+                76,
+                99
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 49567,
+      "friends_count": 64,
+      "listed_count": 462,
+      "created_at": "Wed Dec 17 10:23:54 +0000 2008",
+      "favourites_count": 183,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 215129,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FFFFFF",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme7/bg.gif",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme7/bg.gif",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1172837133289058305/4dq_k5Ci_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1172837133289058305/4dq_k5Ci_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/18186549/1578308596",
+      "profile_link_color": "990000",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "F3F3F3",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 2,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "hi"
+  },
+  {
+    "created_at": "Fri Jan 24 10:55:37 +0000 2020",
+    "id": 1220661424361484300,
+    "id_str": "1220661424361484290",
+    "full_text": "#NZvsIND Great New Zealand tour start for India,we newer feel like they are playing cricket on abroad, easily chased down the big target and take 1-0 lead in three match series. \nBest luck for next match team.\nGreat display of batting by hole team especially @ShreyasIyer15 https://t.co/ET8EUalIlX",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      273
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "NZvsIND",
+          "indices": [
+            0,
+            8
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "ShreyasIyer15",
+          "name": "Shreyas Iyer",
+          "id": 966980546600595500,
+          "id_str": "966980546600595456",
+          "indices": [
+            259,
+            273
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 1220661421433925600,
+          "id_str": "1220661421433925633",
+          "indices": [
+            274,
+            297
+          ],
+          "media_url": "http://pbs.twimg.com/media/EPCpGG-XsAEYM4h.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/EPCpGG-XsAEYM4h.jpg",
+          "url": "https://t.co/ET8EUalIlX",
+          "display_url": "pic.twitter.com/ET8EUalIlX",
+          "expanded_url": "https://twitter.com/itsuday15/status/1220661424361484290/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 639,
+              "h": 480,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 639,
+              "h": 480,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 639,
+              "h": 480,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1220661421433925600,
+          "id_str": "1220661421433925633",
+          "indices": [
+            274,
+            297
+          ],
+          "media_url": "http://pbs.twimg.com/media/EPCpGG-XsAEYM4h.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/EPCpGG-XsAEYM4h.jpg",
+          "url": "https://t.co/ET8EUalIlX",
+          "display_url": "pic.twitter.com/ET8EUalIlX",
+          "expanded_url": "https://twitter.com/itsuday15/status/1220661424361484290/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 639,
+              "h": 480,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 639,
+              "h": 480,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 639,
+              "h": 480,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "recent"
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 919145805646323700,
+      "id_str": "919145805646323712",
+      "name": "uday gadri",
+      "screen_name": "itsuday15",
+      "location": "Mumbai, India",
+      "description": "LOVE MUSIC, CRICKET, TRAVELLING AND MOVIE.                \n\n\n\n\n\n\n\n\n\n\nINDIAN",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 10,
+      "friends_count": 88,
+      "listed_count": 0,
+      "created_at": "Sat Oct 14 10:20:11 +0000 2017",
+      "favourites_count": 320,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 228,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": null,
+      "profile_background_image_url_https": null,
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1054042745369714688/Ajglzmpp_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1054042745369714688/Ajglzmpp_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/919145805646323712/1550232585",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": true,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Fri Jan 24 10:55:33 +0000 2020",
+    "id": 1220661408712425500,
+    "id_str": "1220661408712425472",
+    "full_text": "Maps illustrate potential sea level inundation for New Zealand #ClimateChange ... \n\n(Time to get the dinghy out Foxton ...👀) \n https://t.co/R9bTE2vInv",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      150
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "ClimateChange",
+          "indices": [
+            63,
+            77
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/R9bTE2vInv",
+          "expanded_url": "https://www.newshub.co.nz/home/new-zealand/2020/01/alarming-new-map-shows-the-devastation-rising-sea-levels-could-cause-in-new-zealand.html",
+          "display_url": "newshub.co.nz/home/new-zeala…",
+          "indices": [
+            127,
+            150
+          ]
+        }
+      ]
+    },
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "recent"
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 2198340630,
+      "id_str": "2198340630",
+      "name": "Jenny Meyer",
+      "screen_name": "jennymeyer43",
+      "location": "Wellington",
+      "description": "I am a nurse and journalist in Wellington, New Zealand. Mrs to Mark and Mum to ex children Carl, Troy & Tess. Our labrador is Jossi and kittens Romeo & Julian.",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 496,
+      "friends_count": 1499,
+      "listed_count": 26,
+      "created_at": "Sat Nov 16 20:08:48 +0000 2013",
+      "favourites_count": 2059,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 7713,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/378800000750971212/3ebd8a7906ea8b4ecd5bdf69b7b5a20d_normal.jpeg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000750971212/3ebd8a7906ea8b4ecd5bdf69b7b5a20d_normal.jpeg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/2198340630/1384671237",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Fri Jan 24 10:55:31 +0000 2020",
+    "id": 1220661402332852200,
+    "id_str": "1220661402332852224",
+    "full_text": "Most T20I Runs By An Indian \nAgainst New Zealand:\n\nKing Kohli - 242 Runs in 6 Innings❤️👑\nMs Dhoni - 223 Runs in 11 Innings\nRohit Sharma - 205 Runs in 10 Innings\n\nJust King Things🔥😎\n#ViratKohli #KingKohli #INDvsNZ https://t.co/44LHpGhZZK",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      212
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "ViratKohli",
+          "indices": [
+            181,
+            192
+          ]
+        },
+        {
+          "text": "KingKohli",
+          "indices": [
+            193,
+            203
+          ]
+        },
+        {
+          "text": "INDvsNZ",
+          "indices": [
+            204,
+            212
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [],
+      "media": [
+        {
+          "id": 1220661391402471400,
+          "id_str": "1220661391402471424",
+          "indices": [
+            213,
+            236
+          ],
+          "media_url": "http://pbs.twimg.com/media/EPCpEXGUEAASZzR.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/EPCpEXGUEAASZzR.jpg",
+          "url": "https://t.co/44LHpGhZZK",
+          "display_url": "pic.twitter.com/44LHpGhZZK",
+          "expanded_url": "https://twitter.com/NChitavadiya/status/1220661402332852224/photo/1",
+          "type": "photo",
+          "sizes": {
+            "medium": {
+              "w": 594,
+              "h": 396,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 594,
+              "h": 396,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 594,
+              "h": 396,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1220661391402471400,
+          "id_str": "1220661391402471424",
+          "indices": [
+            213,
+            236
+          ],
+          "media_url": "http://pbs.twimg.com/media/EPCpEXGUEAASZzR.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/EPCpEXGUEAASZzR.jpg",
+          "url": "https://t.co/44LHpGhZZK",
+          "display_url": "pic.twitter.com/44LHpGhZZK",
+          "expanded_url": "https://twitter.com/NChitavadiya/status/1220661402332852224/photo/1",
+          "type": "photo",
+          "sizes": {
+            "medium": {
+              "w": 594,
+              "h": 396,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 594,
+              "h": 396,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 594,
+              "h": 396,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "recent"
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 3145229112,
+      "id_str": "3145229112",
+      "name": "Ņ Ł Meena Chitâvadiýa",
+      "screen_name": "NChitavadiya",
+      "location": "Rajasthan,India",
+      "description": "💯%Fo££o₩Back \n#देशभक्तों से ही देश की शान है,\n#देशभक्तों से ही देश का मान है,\nहम उस देश के फूल हैं यारों,\nजिस देश का नाम #हिंदुस्तान है,\n🙏मेरा भारत महान है 🙏",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 13120,
+      "friends_count": 10483,
+      "listed_count": 1,
+      "created_at": "Wed Apr 08 20:06:48 +0000 2015",
+      "favourites_count": 34795,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 12079,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1166383662624935937/T8Tlzpay_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1166383662624935937/T8Tlzpay_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/3145229112/1554358231",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": true,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 3,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Fri Jan 24 10:55:23 +0000 2020",
+    "id": 1220661366647746600,
+    "id_str": "1220661366647746561",
+    "full_text": "🇮🇳🔥🏏Congratulation #TeamIndia on beating New Zealand by 6 wickets in 1st T20I in #Auckland #NZvsIND Special thanks to Shreyas Iyer 58 Vkohli 45 @klrahul 56 Way to go!🇮🇳🔥🏏 https://t.co/ArrsGYTkxi",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      170
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "TeamIndia",
+          "indices": [
+            19,
+            29
+          ]
+        },
+        {
+          "text": "Auckland",
+          "indices": [
+            81,
+            90
+          ]
+        },
+        {
+          "text": "NZvsIND",
+          "indices": [
+            91,
+            99
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "klrahul",
+          "name": "rahul khandelwal",
+          "id": 534283097,
+          "id_str": "534283097",
+          "indices": [
+            144,
+            152
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 1220661356845682700,
+          "id_str": "1220661356845682690",
+          "indices": [
+            171,
+            194
+          ],
+          "media_url": "http://pbs.twimg.com/media/EPCpCWXVUAIFKv1.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/EPCpCWXVUAIFKv1.jpg",
+          "url": "https://t.co/ArrsGYTkxi",
+          "display_url": "pic.twitter.com/ArrsGYTkxi",
+          "expanded_url": "https://twitter.com/TMohan58858588/status/1220661366647746561/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 750,
+              "h": 563,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 750,
+              "h": 563,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1220661356845682700,
+          "id_str": "1220661356845682690",
+          "indices": [
+            171,
+            194
+          ],
+          "media_url": "http://pbs.twimg.com/media/EPCpCWXVUAIFKv1.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/EPCpCWXVUAIFKv1.jpg",
+          "url": "https://t.co/ArrsGYTkxi",
+          "display_url": "pic.twitter.com/ArrsGYTkxi",
+          "expanded_url": "https://twitter.com/TMohan58858588/status/1220661366647746561/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 750,
+              "h": 563,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 750,
+              "h": 563,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "recent"
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 954021065080029200,
+      "id_str": "954021065080029184",
+      "name": "🇮🇳Telugu Mohan🇮🇳",
+      "screen_name": "TMohan58858588",
+      "location": "Gadwal, Telangana, India",
+      "description": "[Cricket] [Politics] [MoveLover] [TwitterActive]  #BigFanOf @narendramodi @imVKholi @ImRo45 @SDhawan25 @msdhoni @ImRaina [ప్రౌడ్ అఫ్ యు తెలుగు బిడ్డా ] [💯%🔙]",
+      "url": "https://t.co/VJz3dN23sp",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/VJz3dN23sp",
+              "expanded_url": "http://facebook.com/TeluguMohanTeluguMohan",
+              "display_url": "facebook.com/TeluguMohanTel…",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 8077,
+      "friends_count": 8378,
+      "listed_count": 0,
+      "created_at": "Thu Jan 18 16:02:01 +0000 2018",
+      "favourites_count": 3879,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 2753,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": null,
+      "profile_background_image_url_https": null,
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1183603141406674944/-gSd7yAy_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1183603141406674944/-gSd7yAy_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/954021065080029184/1571027924",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": true,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Fri Jan 24 10:55:20 +0000 2020",
+    "id": 1220661356065513500,
+    "id_str": "1220661356065513474",
+    "full_text": "Asia Pasifik \n- Singapore\n- Hongkong \n- Telkomcel Dili Timor Leste\n- Macau \n- Taiwan \n- Malaysia\n- Myanmar\nTimur Tengah \n- Kingdom of Saudi Arabia \nOSEANIA \n- Australia \n- New Zealand \nAmerika \n- USA\n\nAmerika Serikat",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      216
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": []
+    },
+    "metadata": {
+      "iso_language_code": "in",
+      "result_type": "recent"
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 1370209604,
+      "id_str": "1370209604",
+      "name": "Shintia Alvira",
+      "screen_name": "ShintiaAlvira",
+      "location": "",
+      "description": "",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 338,
+      "friends_count": 311,
+      "listed_count": 0,
+      "created_at": "Sun Apr 21 18:10:24 +0000 2013",
+      "favourites_count": 3,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 110,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1220043251563937792/yRW-Yc53_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1220043251563937792/yRW-Yc53_normal.jpg",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "in"
+  },
+  {
+    "created_at": "Fri Jan 24 10:55:14 +0000 2020",
+    "id": 1220661331021320200,
+    "id_str": "1220661331021320192",
+    "full_text": "What a incredible match . Congratulations team India for winning over New Zealand by 6  wickets 🇮🇳💪🙏👏 #NZvsIND https://t.co/HXJzbxOHch",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      110
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "NZvsIND",
+          "indices": [
+            102,
+            110
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [],
+      "media": [
+        {
+          "id": 1220661294904180700,
+          "id_str": "1220661294904180736",
+          "indices": [
+            111,
+            134
+          ],
+          "media_url": "http://pbs.twimg.com/media/EPCo-vnVAAAD0N6.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/EPCo-vnVAAAD0N6.jpg",
+          "url": "https://t.co/HXJzbxOHch",
+          "display_url": "pic.twitter.com/HXJzbxOHch",
+          "expanded_url": "https://twitter.com/amitp9201/status/1220661331021320192/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 1200,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 1920,
+              "h": 1920,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 680,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1220661294904180700,
+          "id_str": "1220661294904180736",
+          "indices": [
+            111,
+            134
+          ],
+          "media_url": "http://pbs.twimg.com/media/EPCo-vnVAAAD0N6.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/EPCo-vnVAAAD0N6.jpg",
+          "url": "https://t.co/HXJzbxOHch",
+          "display_url": "pic.twitter.com/HXJzbxOHch",
+          "expanded_url": "https://twitter.com/amitp9201/status/1220661331021320192/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 1200,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 1920,
+              "h": 1920,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 680,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "recent"
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 1533953198,
+      "id_str": "1533953198",
+      "name": "AMIT PANDEY☄️پانڈا",
+      "screen_name": "amitp9201",
+      "location": "PLANET EARTH",
+      "description": "💻Web🖱Developer ⏫💵📈Retail💲investor💱 💰📉📊⏫ Sports🏏 Lover⏫Addicted 🎮GAMER⏺and A Proud 🇮🇳INDIAN 🇮🇳💯🗨💬🔁",
+      "url": "https://t.co/HmbhJgHeaV",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/HmbhJgHeaV",
+              "expanded_url": "https://amitpandey.xyz/",
+              "display_url": "amitpandey.xyz",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 773,
+      "friends_count": 1124,
+      "listed_count": 2,
+      "created_at": "Thu Jun 20 13:40:42 +0000 2013",
+      "favourites_count": 30469,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 16445,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1094282636816596993/TckPbePy_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1094282636816596993/TckPbePy_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/1533953198/1549735904",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": true,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Fri Jan 24 10:55:14 +0000 2020",
+    "id": 1220661329683333000,
+    "id_str": "1220661329683333120",
+    "full_text": "ഓക്‌ലൻഡിലെ ഈ‍ഡൻ പാർക്കിൽ ഇന്ത്യൻ ബോളർമാരെ തലങ്ങും വിലങ്ങും പായിച്ചാണ് ന്യൂസീലൻഡ് മികച്ച സ്കോറിലെത്തിയത് #India #NewZealand #T20  https://t.co/C3Fx7jNx7w",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      152
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "India",
+          "indices": [
+            104,
+            110
+          ]
+        },
+        {
+          "text": "NewZealand",
+          "indices": [
+            111,
+            122
+          ]
+        },
+        {
+          "text": "T20",
+          "indices": [
+            123,
+            127
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/C3Fx7jNx7w",
+          "expanded_url": "https://www.manoramanews.com/news/breaking-news/2020/01/24/india-beats-new-zealand-in-auckland-t20.html",
+          "display_url": "manoramanews.com/news/breaking-…",
+          "indices": [
+            129,
+            152
+          ]
+        }
+      ]
+    },
+    "metadata": {
+      "iso_language_code": "ml",
+      "result_type": "recent"
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 25244464,
+      "id_str": "25244464",
+      "name": "Manorama News",
+      "screen_name": "manoramanews",
+      "location": "Kerala, India",
+      "description": "Manorama News: The Number 1 Malayalam News and Infotainment TV channel",
+      "url": "http://t.co/va50CbITv8",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/va50CbITv8",
+              "expanded_url": "http://www.manoramanews.com",
+              "display_url": "manoramanews.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 296056,
+      "friends_count": 153,
+      "listed_count": 635,
+      "created_at": "Thu Mar 19 05:27:57 +0000 2009",
+      "favourites_count": 18,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": true,
+      "statuses_count": 179173,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "9AE4E8",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1138474867601358849/V9VQRBXa_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1138474867601358849/V9VQRBXa_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/25244464/1579451179",
+      "profile_link_color": "0084B4",
+      "profile_sidebar_border_color": "BDDCAD",
+      "profile_sidebar_fill_color": "DDFFCC",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "ml"
+  }
+]

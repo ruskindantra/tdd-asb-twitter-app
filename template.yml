@@ -72,6 +72,52 @@ Resources:
       Runtime: nodejs10.x
       Tracing: Active
       Timeout: 60
+      Role: !GetAtt TweetFlattenerLambdaExecutionRole.Arn
+      Environment:
+        Variables: 
+          TWEET_BUCKET: !Ref TweetBucket
+          TWEET_BUCKET_PREFIX: unprocessed
+          TWEET_QUEUE: !Ref TweetQueue
+
+  TweetFlattenerLambdaExecutionRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+        - Effect: Allow
+          Principal:
+            Service:
+            - lambda.amazonaws.com
+          Action:
+          - sts:AssumeRole
+      Policies:
+        - PolicyName: allowLambdaLogs
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+            - Effect: Allow
+              Action:
+              - logs:*
+              Resource: arn:aws:logs:*:*:*
+        - PolicyName: allowSqs
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+            - Effect: Allow
+              Action:
+              - sqs:SendMessage
+              - sqs:SendMessageBatch
+              - sqs:SetQueueAttributes
+              - sqs:ChangeMessageVisibility
+              - sqs:ChangeMessageVisibilityBatch
+              Resource: !GetAtt TweetQueue.Arn
+      Path: /
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/CloudWatchFullAccess
+        - arn:aws:iam::aws:policy/AWSXrayWriteOnlyAccess
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+        - arn:aws:iam::aws:policy/AmazonS3FullAccess
 
   TweetSentimentAnalyserLambdaExecutionRole:
     Type: AWS::IAM::Role
@@ -160,7 +206,7 @@ Resources:
         StreamModeEnabled: 'true'
         PollingFrequencyInMinutes: !Ref PollingFrequencyInMinutes
         # Name of lambda function that should be invoked to process tweets. Note, this must be a function name and not a function ARN.
-        TweetProcessorFunctionName: !Ref TweetSentiment
+        TweetProcessorFunctionName: !Ref TweetFlattener
 
   Dashboard:
     Type: AWS::CloudWatch::Dashboard

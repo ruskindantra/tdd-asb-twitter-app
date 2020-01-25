@@ -2,19 +2,6 @@ AWSTemplateFormatVersion: '2010-09-09'
 Transform: AWS::Serverless-2016-10-31
 Description: Publishes tweet sentiment analysis metrics for the given Twitter search.
 
-#Metadata:
-#  AWS::ServerlessRepo::Application:
-#    Name: tweet-sentiment
-#    Description: Publishes tweet sentiment analysis metrics for the given Twitter search.
-#    Author: James Hood
-#    SpdxLicenseId: MIT
-#    LicenseUrl: LICENSE
-#    ReadmeUrl: README.md
-#    Labels: [twitter, tweet, sentiment, metrics]
-#    HomePageUrl: https://github.com/jlhood/tweet-sentiment-python
-#    SemanticVersion: 2.3.2
-#    SourceCodeUrl: https://github.com/jlhood/tweet-sentiment-python/tree/2.3.2
-
 Parameters:
   SearchText:
     Type: String
@@ -62,7 +49,7 @@ Resources:
       QueueName: TweetsQueue
       VisibilityTimeout: 120
       MessageRetentionPeriod: 600
-      DelaySeconds: 5
+      DelaySeconds: 60
 
   TweetFlattener:
     Type: AWS::Serverless::Function
@@ -156,6 +143,9 @@ Resources:
         - arn:aws:iam::aws:policy/CloudWatchFullAccess
         - arn:aws:iam::aws:policy/AWSXrayWriteOnlyAccess
         - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+        - arn:aws:iam::aws:policy/AmazonS3FullAccess
+        #- arn:aws:iam::aws:policy/ComprehendFullAccess
+        - arn:aws:iam::aws:policy/AWSLambdaFullAccess
 
   TweetSentimentAnalyser:
     Type: AWS::Serverless::Function
@@ -166,10 +156,17 @@ Resources:
       Tracing: Active
       Timeout: 60
       Role: !GetAtt TweetSentimentAnalyserLambdaExecutionRole.Arn
+      Environment:
+        Variables: 
+          TWEET_BUCKET: !Ref TweetBucket
+          TWEET_BUCKET_PREFIX: processed
+          TWEET_QUEUE: !Ref TweetQueue
+          TWEET_SENTIMENT_LAMBDA: !Ref TweetSentiment
 
   TweetSentimentAnalyserEventSourceMapping:
     Type: AWS::Lambda::EventSourceMapping
     Properties:
+      # maximum messages lambda will receive when triggered
       BatchSize: 10
       Enabled: true
       EventSourceArn: !GetAtt TweetQueue.Arn
@@ -246,9 +243,28 @@ Resources:
                     }
                 },
                 {
+                  "type": "metric",
+                  "x": 0,
+                  "y": 6,
+                  "width": 24,
+                  "height": 6,
+                  "properties": {
+                      "view": "timeSeries",
+                      "stacked": false,
+                      "metrics": [
+                          [ "AWS/SQS", "NumberOfMessagesSent", "QueueName", "${TweetQueue}" ],
+                          [ ".", "NumberOfMessagesReceived", ".", "." ],
+                          [ ".", "NumberOfMessagesDeleted", ".", "." ]
+                      ],
+                      "region": "${AWS::Region}",
+                      "period": 300,
+                      "title": "SQS Messages Sent/Received/Deleted"
+                  }
+                },
+                {
                     "type": "metric",
                     "x": 12,
-                    "y": 12,
+                    "y": 18,
                     "width": 12,
                     "height": 6,
                     "properties": {
@@ -276,7 +292,7 @@ Resources:
                 {
                     "type": "metric",
                     "x": 0,
-                    "y": 6,
+                    "y": 12,
                     "width": 12,
                     "height": 6,
                     "properties": {
@@ -304,7 +320,7 @@ Resources:
                 {
                     "type": "metric",
                     "x": 12,
-                    "y": 6,
+                    "y": 12,
                     "width": 12,
                     "height": 6,
                     "properties": {
@@ -332,7 +348,7 @@ Resources:
                 {
                     "type": "metric",
                     "x": 0,
-                    "y": 12,
+                    "y": 18,
                     "width": 12,
                     "height": 6,
                     "properties": {
@@ -360,7 +376,7 @@ Resources:
                 {
                     "type": "log",
                     "x": 0,
-                    "y": 18,
+                    "y": 24,
                     "width": 24,
                     "height": 4,
                     "properties": {
@@ -372,7 +388,7 @@ Resources:
                 {
                     "type": "log",
                     "x": 0,
-                    "y": 22,
+                    "y": 28,
                     "width": 24,
                     "height": 6,
                     "properties": {
@@ -384,7 +400,7 @@ Resources:
                 {
                     "type": "log",
                     "x": 0,
-                    "y": 28,
+                    "y": 34,
                     "width": 24,
                     "height": 6,
                     "properties": {
@@ -392,7 +408,7 @@ Resources:
                         "region": "${AWS::Region}",
                         "title": "Top Negative Tweets - ${SearchText}"
                     }
-                }
+                }                
             ]
         }
 

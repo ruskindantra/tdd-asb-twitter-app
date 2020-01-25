@@ -26,7 +26,7 @@ exports.lambdaHandler = async (event, context) => {
             //console.info(response);
 
             let sqsPayload = {
-                MessageBody: JSON.stringify(response),
+                MessageBody: key,
                 QueueUrl: process.env.TWEET_QUEUE
             };
             const sqsResponse = await sqs.sendMessage(sqsPayload).promise();

@@ -1,0 +1,12 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "microservice-tdd-asb-twitter-app"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-x6u71f4ag9ch"
+s3_prefix = "microservice-tdd-asb-twitter-app"
+region = "ap-southeast-2"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+parameter_overrides = "SearchText=\"new zealand\" PollingFrequencyInMinutes=\"3\" DashboardName=\"microservice-twitter-app-dashboard\" DashboardPeriodInSeconds=\"300\" LogLevel=\"INFO\""
+

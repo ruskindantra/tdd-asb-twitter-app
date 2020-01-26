@@ -1,0 +1,467 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: Publishes tweet sentiment analysis metrics for the given Twitter search.
+
+Parameters:
+  SearchText:
+    Type: String
+    Description: Search text to pass to Twitter. You can experiment with the Twitter search API at https://twitter.com/search-home
+    # Search text is used as a CW Logs dimension so have to keep it within the constraints of a dimension value.
+    MinLength: 1
+    MaxLength: 255
+  PollingFrequencyInMinutes:
+    Type: Number
+    Description: Frequency (in minutes) to poll for new tweets.
+    MinValue: 1
+    Default: 5
+  DashboardName:
+    Type: String
+    Description: CloudWatch dashboard name. If not specified, defaults to let CloudFormation name the Dashboard.
+    MaxLength: 255
+    AllowedPattern: "^[a-zA-Z0-9\\-_]*$"
+    Default: ''
+  DashboardPeriodInSeconds:
+    Type: Number
+    Description: Period (in seconds) for graphs on CloudWatch dashboard. Valid values are 60 (1 minute), 300 (5 minute), or 3600 (1 hour).
+    AllowedValues:
+      - 60
+      - 300
+      - 3600
+    Default: 300
+  LogLevel:
+    Type: String
+    Description: Log level for Lambda function logging, e.g., ERROR, INFO, DEBUG, etc
+    Default: INFO
+
+Conditions:
+  DashboardNameProvided:
+    !Not [!Equals [!Ref DashboardName, '']]
+
+Resources:
+  TweetBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: tweets294011
+
+  TweetQueue:
+    Type: AWS::SQS::Queue
+    Properties:
+      QueueName: TweetsQueue
+      VisibilityTimeout: 120
+      MessageRetentionPeriod: 600
+      DelaySeconds: 60
+
+  TweetFlattener:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: tweet-flattener/
+      Handler: app.lambdaHandler
+      Runtime: nodejs10.x
+      Tracing: Active
+      Timeout: 60
+      Role: !GetAtt TweetFlattenerLambdaExecutionRole.Arn
+      Environment:
+        Variables: 
+          TWEET_BUCKET: !Ref TweetBucket
+          TWEET_BUCKET_PREFIX: unprocessed
+          TWEET_QUEUE: !Ref TweetQueue
+
+  TweetFlattenerLambdaExecutionRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+        - Effect: Allow
+          Principal:
+            Service:
+            - lambda.amazonaws.com
+          Action:
+          - sts:AssumeRole
+      Policies:
+        - PolicyName: allowLambdaLogs
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+            - Effect: Allow
+              Action:
+              - logs:*
+              Resource: arn:aws:logs:*:*:*
+        - PolicyName: allowSqs
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+            - Effect: Allow
+              Action:
+              - sqs:SendMessage
+              - sqs:SendMessageBatch
+              - sqs:SetQueueAttributes
+              - sqs:ChangeMessageVisibility
+              - sqs:ChangeMessageVisibilityBatch
+              Resource: !GetAtt TweetQueue.Arn
+      Path: /
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/CloudWatchFullAccess
+        - arn:aws:iam::aws:policy/AWSXrayWriteOnlyAccess
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+        - arn:aws:iam::aws:policy/AmazonS3FullAccess
+
+  TweetSentimentAnalyserLambdaExecutionRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+        - Effect: Allow
+          Principal:
+            Service:
+            - lambda.amazonaws.com
+          Action:
+          - sts:AssumeRole
+      Policies:
+        - PolicyName: allowLambdaLogs
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+            - Effect: Allow
+              Action:
+              - logs:*
+              Resource: arn:aws:logs:*:*:*
+        - PolicyName: allowSqs
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+            - Effect: Allow
+              Action:
+              - sqs:ReceiveMessage
+              - sqs:DeleteMessage
+              - sqs:GetQueueAttributes
+              - sqs:ChangeMessageVisibility
+              Resource: !GetAtt TweetQueue.Arn
+      Path: /
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/CloudWatchFullAccess
+        - arn:aws:iam::aws:policy/AWSXrayWriteOnlyAccess
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+        - arn:aws:iam::aws:policy/AmazonS3FullAccess
+        #- arn:aws:iam::aws:policy/ComprehendFullAccess
+        - arn:aws:iam::aws:policy/AWSLambdaFullAccess
+
+  TweetSentimentAnalyser:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: tweet-sentiment-analyser/
+      Handler: app.lambdaHandler
+      Runtime: nodejs10.x
+      Tracing: Active
+      Timeout: 60
+      Role: !GetAtt TweetSentimentAnalyserLambdaExecutionRole.Arn
+      Environment:
+        Variables: 
+          TWEET_BUCKET: !Ref TweetBucket
+          TWEET_BUCKET_PREFIX: processed
+          TWEET_QUEUE: !Ref TweetQueue
+          TWEET_SENTIMENT_LAMBDA: !Ref TweetSentiment
+
+  TweetSentimentAnalyserEventSourceMapping:
+    Type: AWS::Lambda::EventSourceMapping
+    Properties:
+      # maximum messages lambda will receive when triggered
+      BatchSize: 10
+      Enabled: true
+      EventSourceArn: !GetAtt TweetQueue.Arn
+      FunctionName: !GetAtt TweetSentimentAnalyser.Arn
+
+  TweetSentiment:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: tweet-sentiment/
+      Handler: tweetsentiment.handler
+      Runtime: python3.7
+      Tracing: Active
+      Timeout: 60
+      Policies:
+        - ComprehendBasicAccessPolicy: {}
+        - CloudWatchPutMetricPolicy: {}
+      Environment:
+        Variables:
+          LOG_LEVEL: !Ref LogLevel
+          SEARCH_TEXT: !Ref SearchText
+
+  Tweets:
+    Type: AWS::Serverless::Application
+    Properties:
+      Location:
+        ApplicationId: arn:aws:serverlessrepo:us-east-1:077246666028:applications/aws-serverless-twitter-event-source
+        SemanticVersion: 2.0.0
+      Parameters: 
+        # Max number of tweets to send to the TweetProcessor lambda function on each invocation.
+        BatchSize: '20' # max allowed by PutMetricData API
+        # Non-URL-encoded search text poller should use when querying Twitter Search API.
+        SearchText: !Sub '${SearchText} -filter:nativeretweets'
+        # If true, the app will remember the last tweet found and only invoke the tweet processor function for newer tweets. If false, the app will be stateless and invoke the tweet processor function with all tweets found in each polling cycle.
+        StreamModeEnabled: 'true'
+        PollingFrequencyInMinutes: !Ref PollingFrequencyInMinutes
+        # Name of lambda function that should be invoked to process tweets. Note, this must be a function name and not a function ARN.
+        TweetProcessorFunctionName: !Ref TweetFlattener
+
+  Dashboard:
+    Type: AWS::CloudWatch::Dashboard
+    Properties:
+      DashboardName: !If
+        - DashboardNameProvided
+        - !Ref DashboardName
+        - !Ref AWS::NoValue
+      DashboardBody: !Sub |
+        {
+            "widgets": [
+                {
+                    "type": "metric",
+                    "x": 0,
+                    "y": 0,
+                    "width": 24,
+                    "height": 6,
+                    "properties": {
+                        "metrics": [
+                            [ "TweetSentiment", "SentimentCount", "SearchText", "${SearchText}", "SentimentType", "Neutral" ],
+                            [ "...", "Negative" ],
+                            [ "...", "Positive" ],
+                            [ "...", "Mixed" ]
+                        ],
+                        "view": "timeSeries",
+                        "stacked": true,
+                        "region": "${AWS::Region}",
+                        "stat": "Sum",
+                        "period": ${DashboardPeriodInSeconds},
+                        "title": "Tweet Volume - ${SearchText}",
+                        "yAxis": {
+                            "left": {
+                                "label": "Count",
+                                "showUnits": false
+                            }
+                        }
+                    }
+                },
+                {
+                  "type": "metric",
+                  "x": 0,
+                  "y": 6,
+                  "width": 15,
+                  "height": 6,
+                  "properties": {
+                      "view": "timeSeries",
+                      "stacked": false,
+                      "metrics": [
+                          [ "AWS/SQS", "NumberOfMessagesSent", "QueueName", "${TweetQueue}" ],
+                          [ ".", "NumberOfMessagesReceived", ".", "." ],
+                          [ ".", "NumberOfMessagesDeleted", ".", "." ]
+                      ],
+                      "region": "${AWS::Region}",
+                      "period": 300,
+                      "title": "SQS Messages Sent/Received/Deleted"
+                  }
+                },
+                {
+                  "type": "metric",
+                  "x": 15,
+                  "y": 6,
+                  "width": 9,
+                  "height": 6,
+                  "properties": {
+                      "metrics": [
+                          [ "AWS/Lambda", "Duration", "FunctionName", "${TweetSentimentAnalyser}", { "label": "TweetSentiment" } ],
+                          [ "...", "${TweetFlattener}", { "label": "TweetFlattener" } ],
+                          [ "...", "${Tweets}", { "label": "TweetPoller" } ],
+                          [ "...", "${TweetSentiment}", { "label": "TweetAnalyser" } ]
+                      ],
+                      "view": "singleValue",
+                      "region": "ap-southeast-2",
+                      "stacked": false,
+                      "setPeriodToTimeRange": false,
+                      "period": 300,
+                      "stat": "Average"
+                  }
+                },
+                {
+                    "type": "metric",
+                    "x": 12,
+                    "y": 18,
+                    "width": 12,
+                    "height": 6,
+                    "properties": {
+                        "metrics": [
+                            [ "TweetSentiment", "SentimentScore", "SearchText", "${SearchText}", "SentimentType", "Mixed" ],
+                            [ "...", { "stat": "Maximum" } ],
+                            [ "...", { "stat": "Minimum" } ]
+                        ],
+                        "view": "timeSeries",
+                        "stacked": false,
+                        "region": "${AWS::Region}",
+                        "stat": "Average",
+                        "period": ${DashboardPeriodInSeconds},
+                        "title": "Mixed Score - ${SearchText}",
+                        "yAxis": {
+                            "left": {
+                                "label": "%",
+                                "showUnits": false,
+                                "min": 0,
+                                "max": 1
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "metric",
+                    "x": 0,
+                    "y": 12,
+                    "width": 12,
+                    "height": 6,
+                    "properties": {
+                        "metrics": [
+                            [ "TweetSentiment", "SentimentScore", "SearchText", "${SearchText}", "SentimentType", "Positive" ],
+                            [ "...", { "stat": "Maximum" } ],
+                            [ "...", { "stat": "Minimum" } ]
+                        ],
+                        "view": "timeSeries",
+                        "stacked": false,
+                        "region": "${AWS::Region}",
+                        "stat": "Average",
+                        "period": ${DashboardPeriodInSeconds},
+                        "title": "Positive Score - ${SearchText}",
+                        "yAxis": {
+                            "left": {
+                                "label": "%",
+                                "showUnits": false,
+                                "min": 0,
+                                "max": 1
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "metric",
+                    "x": 12,
+                    "y": 12,
+                    "width": 12,
+                    "height": 6,
+                    "properties": {
+                        "metrics": [
+                            [ "TweetSentiment", "SentimentScore", "SearchText", "${SearchText}", "SentimentType", "Negative" ],
+                            [ "...", { "stat": "Maximum" } ],
+                            [ "...", { "stat": "Minimum" } ]
+                        ],
+                        "view": "timeSeries",
+                        "stacked": false,
+                        "region": "${AWS::Region}",
+                        "stat": "Average",
+                        "period": ${DashboardPeriodInSeconds},
+                        "title": "Negative Score - ${SearchText}",
+                        "yAxis": {
+                            "left": {
+                                "label": "%",
+                                "showUnits": false,
+                                "min": 0,
+                                "max": 1
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "metric",
+                    "x": 0,
+                    "y": 18,
+                    "width": 12,
+                    "height": 6,
+                    "properties": {
+                        "metrics": [
+                            [ "TweetSentiment", "SentimentScore", "SearchText", "${SearchText}", "SentimentType", "Neutral" ],
+                            [ "...", { "stat": "Maximum" } ],
+                            [ "...", { "stat": "Minimum" } ]
+                        ],
+                        "view": "timeSeries",
+                        "stacked": false,
+                        "region": "${AWS::Region}",
+                        "stat": "Average",
+                        "period": ${DashboardPeriodInSeconds},
+                        "title": "Neutral Score - ${SearchText}",
+                        "yAxis": {
+                            "left": {
+                                "label": "%",
+                                "showUnits": false,
+                                "min": 0,
+                                "max": 1
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "log",
+                    "x": 0,
+                    "y": 24,
+                    "width": 24,
+                    "height": 4,
+                    "properties": {
+                        "query": "SOURCE '/aws/lambda/${TweetSentiment}' | filter @message like /Tweet Sentiment Result/\n| parse @message '[INFO]\t*\t*\tTweet Sentiment Result: tweet_url:\"*\" LanguageCode:* Sentiment:* Positive:* Negative:* Neutral:* Mixed:*' as datetime, requestId, tweetUrl, language, sentiment, positive, negative, neutral, mixed\n| stats count(sentiment) as count by sentiment\n| sort count desc",
+                        "region": "${AWS::Region}",
+                        "title": "Sentiment Counts - ${SearchText}"
+                    }
+                },
+                {
+                    "type": "log",
+                    "x": 0,
+                    "y": 28,
+                    "width": 24,
+                    "height": 6,
+                    "properties": {
+                        "query": "SOURCE '/aws/lambda/${TweetSentiment}' | filter @message like /Tweet Sentiment Result/\n| parse @message '[INFO]\t*\t*\tTweet Sentiment Result: tweet_url:\"*\" LanguageCode:* Sentiment:* Positive:* Negative:* Neutral:* Mixed:*' as datetime, requestId, tweetUrl, language, sentiment, positive, negative, neutral, mixed\n| filter sentiment = 'Positive'\n| sort positive desc\n| limit 10",
+                        "region": "${AWS::Region}",
+                        "title": "Top Positive Tweets - ${SearchText}"
+                    }
+                },
+                {
+                    "type": "log",
+                    "x": 0,
+                    "y": 34,
+                    "width": 24,
+                    "height": 6,
+                    "properties": {
+                        "query": "SOURCE '/aws/lambda/${TweetSentiment}' | filter @message like /Tweet Sentiment Result/\n| parse @message '[INFO]\t*\t*\tTweet Sentiment Result: tweet_url:\"*\" LanguageCode:* Sentiment:* Positive:* Negative:* Neutral:* Mixed:*' as datetime, requestId, tweetUrl, language, sentiment, positive, negative, neutral, mixed\n| filter sentiment = 'Negative'\n| sort negative desc\n| limit 10",
+                        "region": "${AWS::Region}",
+                        "title": "Top Negative Tweets - ${SearchText}"
+                    }
+                }                
+            ]
+        }
+
+Outputs:
+  TweetQueueArn:
+    Description: TweetQueue ARN.
+    Value: !Ref TweetQueue
+  TweetBucketArn:
+    Description: TweetBucket ARN.
+    Value: !Ref TweetBucket
+
+  TweetSentimentFunctionName:
+    Description: TweetSentiment function name.
+    Value: !Ref TweetSentiment
+  TweetSentimentFunctionArn:
+    Description: TweetSentiment function ARN.
+    Value: !GetAtt TweetSentiment.Arn
+  
+  TweetFlattenerFunctionName:
+    Description: TweetFlattener function name.
+    Value: !Ref TweetFlattener
+  TweetFlattenerArn:
+    Description: TweetFlattener function ARN.
+    Value: !GetAtt TweetFlattener.Arn
+  
+  TweetSentimentAnalyserFunctionName:
+    Description: TweetSentimentAnalyser function name.
+    Value: !Ref TweetSentimentAnalyser
+  TweetSentimentAnalyserArn:
+    Description: TweetSentimentAnalyser function ARN.
+    Value: !GetAtt TweetSentimentAnalyser.Arn
+
+  DashboardName:
+    Description: CloudWatch Dashboard name.
+    Value: !Ref Dashboard

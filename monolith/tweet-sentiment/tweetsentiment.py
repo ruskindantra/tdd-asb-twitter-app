@@ -65,14 +65,14 @@ def handler(tweets, context):
             temp_metric_data.append(metric_data[i])
             if (len(temp_metric_data) == 20):
                 CLOUDWATCH.put_metric_data(
-                    Namespace='TweetSentiment',
+                    Namespace='MonolithTweetSentiment',
                     MetricData=temp_metric_data
                 )
                 temp_metric_data.clear()
 
         if temp_metric_data:
             CLOUDWATCH.put_metric_data(
-                Namespace='TweetSentiment',
+                Namespace='MonolithTweetSentiment',
                 MetricData=temp_metric_data
             )
 

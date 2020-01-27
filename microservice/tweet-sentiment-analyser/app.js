@@ -42,9 +42,10 @@ exports.lambdaHandler = async (event, context) => {
             };
         
         const response = await s3.getObject(params).promise();
+        let tweetJson = JSON.parse(response.Body.toString());
         console.debug("Response is: " + response.Body.toString());
-        console.info("Tweet is: " + JSON.parse(response.Body.toString())["full_text"]);
-        allTweets.push(response.Body.toString());
+        console.info("Tweet is: " + tweetJson["full_text"]);
+        allTweets.push(tweetJson);
     }
 
     //invoke the analyser asynchronously

@@ -223,7 +223,7 @@ Resources:
                     "height": 6,
                     "properties": {
                         "metrics": [
-                            [ "TweetSentiment", "SentimentCount", "SearchText", "${SearchText}", "SentimentType", "Neutral" ],
+                            [ "MicroserviceTweetSentiment", "SentimentCount", "SearchText", "${SearchText}", "SentimentType", "Neutral" ],
                             [ "...", "Negative" ],
                             [ "...", "Positive" ],
                             [ "...", "Mixed" ]
@@ -290,7 +290,7 @@ Resources:
                     "height": 6,
                     "properties": {
                         "metrics": [
-                            [ "TweetSentiment", "SentimentScore", "SearchText", "${SearchText}", "SentimentType", "Mixed" ],
+                            [ "MicroserviceTweetSentiment", "SentimentScore", "SearchText", "${SearchText}", "SentimentType", "Mixed" ],
                             [ "...", { "stat": "Maximum" } ],
                             [ "...", { "stat": "Minimum" } ]
                         ],
@@ -318,7 +318,7 @@ Resources:
                     "height": 6,
                     "properties": {
                         "metrics": [
-                            [ "TweetSentiment", "SentimentScore", "SearchText", "${SearchText}", "SentimentType", "Positive" ],
+                            [ "MicroserviceTweetSentiment", "SentimentScore", "SearchText", "${SearchText}", "SentimentType", "Positive" ],
                             [ "...", { "stat": "Maximum" } ],
                             [ "...", { "stat": "Minimum" } ]
                         ],
@@ -346,7 +346,7 @@ Resources:
                     "height": 6,
                     "properties": {
                         "metrics": [
-                            [ "TweetSentiment", "SentimentScore", "SearchText", "${SearchText}", "SentimentType", "Negative" ],
+                            [ "MicroserviceTweetSentiment", "SentimentScore", "SearchText", "${SearchText}", "SentimentType", "Negative" ],
                             [ "...", { "stat": "Maximum" } ],
                             [ "...", { "stat": "Minimum" } ]
                         ],
@@ -374,7 +374,7 @@ Resources:
                     "height": 6,
                     "properties": {
                         "metrics": [
-                            [ "TweetSentiment", "SentimentScore", "SearchText", "${SearchText}", "SentimentType", "Neutral" ],
+                            [ "MicroserviceTweetSentiment", "SentimentScore", "SearchText", "${SearchText}", "SentimentType", "Neutral" ],
                             [ "...", { "stat": "Maximum" } ],
                             [ "...", { "stat": "Minimum" } ]
                         ],
